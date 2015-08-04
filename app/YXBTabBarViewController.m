@@ -52,12 +52,14 @@
     _meVC = profile;
     
 }
-
-// 添加一个控制器的属性
+/**
+ *  添加一个控制器的属性
+ *
+ *  @return void
+ */
 - (void)setUpOneChildViewController:(UIViewController *)vc title:(NSString *)title imageName:(NSString *)imageName selImageName:(NSString *)selImageName
 {
     vc.tabBarItem.title = title;
-    
     
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
     UIImage *selImage = [UIImage imageNamed:selImageName];
@@ -66,9 +68,9 @@
     }
     
     vc.tabBarItem.selectedImage = selImage;
-    
-//    [vc.tabBarController.tabBarItem setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//    [self setTitleColor:[UIColor orangeColor] forState:UIControlStateSelected];
+    /**
+     创建导航控制器
+     */
     YXBBaseNavigationViewController *nav=[[YXBBaseNavigationViewController alloc]initWithRootViewController:vc];
     [self addChildViewController:nav];
     

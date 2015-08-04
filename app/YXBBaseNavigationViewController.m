@@ -27,6 +27,9 @@
     [self setUpNavBarButton];
     
 }
+/**
+ *  设置全局的NavBarButton
+ */
 -(void)setUpNavBarButton
 {
     UIBarButtonItem *item = [UIBarButtonItem appearance];
@@ -42,8 +45,11 @@
     
 
 }
-
-// 设置导航条的标题
+/**
+ *  设置导航条的标题
+ *
+ *  @return void
+ */
 - (void)setUpNavBarTitle
 {
     UINavigationBar *nav = [UINavigationBar appearanceWhenContainedIn:[YXBBaseNavigationViewController class], nil];
@@ -56,7 +62,7 @@
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     
-    if (self.childViewControllers.count) { // 不是根控制器
+    if (self.childViewControllers.count) {  /**< 不是根控制器 */
         viewController.hidesBottomBarWhenPushed = YES;
         
         // 设置导航条的按钮
