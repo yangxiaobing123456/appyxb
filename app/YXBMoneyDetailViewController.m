@@ -1,38 +1,27 @@
 //
-//  YXBMoneyViewController.m
+//  YXBMoneyDetailViewController.m
 //  app
 //
-//  Created by kpkj-ios on 15/8/3.
+//  Created by kpkj-ios on 15/8/4.
 //  Copyright (c) 2015年 yxb. All rights reserved.
 //
 
-#import "YXBMoneyViewController.h"
 #import "YXBMoneyDetailViewController.h"
-#import "Define.h"
-@interface YXBMoneyViewController ()
+
+@interface YXBMoneyDetailViewController ()
 
 @end
 
-@implementation YXBMoneyViewController
+@implementation YXBMoneyDetailViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title=@"资金";
     // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-- (IBAction)btnClick:(id)sender {
-    YXBMoneyDetailViewController *moneyDetailVC=[[YXBMoneyDetailViewController alloc]init];
-    [self presentPopUpViewController:moneyDetailVC];
-//    [self presentViewController:moneyDetailVC animated:YES completion:^{
-//        
-//        
-//    }];
-    
 }
 
 /*

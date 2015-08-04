@@ -30,6 +30,10 @@
 		B56BB3E31B70ABBC004AEAB8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B56BB3E21B70ABBC004AEAB8 /* SystemConfiguration.framework */; };
 		B56BB3E61B70ABF4004AEAB8 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB3E51B70ABF4004AEAB8 /* Reachability.m */; };
 		B56BB3E91B70AF07004AEAB8 /* YXBIsNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB3E81B70AF07004AEAB8 /* YXBIsNetworking.m */; };
+		B5ACC3341B70F63800383F92 /* JWBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ACC3311B70F63800383F92 /* JWBlurView.m */; };
+		B5ACC3351B70F63800383F92 /* UIViewController+ENPopUp.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ACC3331B70F63800383F92 /* UIViewController+ENPopUp.m */; };
+		B5ACC3391B70F6AF00383F92 /* YXBMoneyDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5ACC3371B70F6AF00383F92 /* YXBMoneyDetailViewController.m */; };
+		B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5ACC3381B70F6AF00383F92 /* YXBMoneyDetailViewController.xib */; };
 		B5EC3D731B6F0E1100102584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D721B6F0E1100102584 /* main.m */; };
 		B5EC3D761B6F0E1100102584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D751B6F0E1100102584 /* AppDelegate.m */; };
 		B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7D1B6F0E1100102584 /* Images.xcassets */; };
@@ -111,6 +115,13 @@
 		B56BB3E51B70ABF4004AEAB8 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		B56BB3E71B70AF07004AEAB8 /* YXBIsNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBIsNetworking.h; sourceTree = "<group>"; };
 		B56BB3E81B70AF07004AEAB8 /* YXBIsNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBIsNetworking.m; sourceTree = "<group>"; };
+		B5ACC3301B70F63800383F92 /* JWBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBlurView.h; sourceTree = "<group>"; };
+		B5ACC3311B70F63800383F92 /* JWBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBlurView.m; sourceTree = "<group>"; };
+		B5ACC3321B70F63800383F92 /* UIViewController+ENPopUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ENPopUp.h"; sourceTree = "<group>"; };
+		B5ACC3331B70F63800383F92 /* UIViewController+ENPopUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ENPopUp.m"; sourceTree = "<group>"; };
+		B5ACC3361B70F6AF00383F92 /* YXBMoneyDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMoneyDetailViewController.h; sourceTree = "<group>"; };
+		B5ACC3371B70F6AF00383F92 /* YXBMoneyDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMoneyDetailViewController.m; sourceTree = "<group>"; };
+		B5ACC3381B70F6AF00383F92 /* YXBMoneyDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMoneyDetailViewController.xib; sourceTree = "<group>"; };
 		B5EC3D6D1B6F0E1100102584 /* 365金融圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "365金融圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EC3D711B6F0E1100102584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5EC3D721B6F0E1100102584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -252,6 +263,17 @@
 			path = appTests;
 			sourceTree = "<group>";
 		};
+		B5ACC32F1B70F63800383F92 /* Popview */ = {
+			isa = PBXGroup;
+			children = (
+				B5ACC3301B70F63800383F92 /* JWBlurView.h */,
+				B5ACC3311B70F63800383F92 /* JWBlurView.m */,
+				B5ACC3321B70F63800383F92 /* UIViewController+ENPopUp.h */,
+				B5ACC3331B70F63800383F92 /* UIViewController+ENPopUp.m */,
+			);
+			path = Popview;
+			sourceTree = "<group>";
+		};
 		B5EC3D641B6F0E1100102584 = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +374,7 @@
 		B5EC3DA91B6F162000102584 /* Category（自定义的第三方类别） */ = {
 			isa = PBXGroup;
 			children = (
+				B5ACC32F1B70F63800383F92 /* Popview */,
 				B5EC3DAA1B6F16B300102584 /* UIImage+YXBResizableImage.h */,
 				B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */,
 				B5EC3DBA1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.h */,
@@ -368,6 +391,9 @@
 				B5EC3DC01B6F31FD00102584 /* YXBMoneyViewController.h */,
 				B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */,
 				B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */,
+				B5ACC3361B70F6AF00383F92 /* YXBMoneyDetailViewController.h */,
+				B5ACC3371B70F6AF00383F92 /* YXBMoneyDetailViewController.m */,
+				B5ACC3381B70F6AF00383F92 /* YXBMoneyDetailViewController.xib */,
 			);
 			name = "money（资金）";
 			sourceTree = "<group>";
@@ -492,6 +518,7 @@
 				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
 				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
 				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
+				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +537,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5ACC3351B70F63800383F92 /* UIViewController+ENPopUp.m in Sources */,
+				B5ACC3341B70F63800383F92 /* JWBlurView.m in Sources */,
 				B5EC3DCD1B6F322000102584 /* YXBMeViewController.m in Sources */,
 				B56BB3E91B70AF07004AEAB8 /* YXBIsNetworking.m in Sources */,
 				B56BB3D71B709407004AEAB8 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -543,6 +572,7 @@
 				B56BB3BC1B709401004AEAB8 /* AFHTTPSessionManager.m in Sources */,
 				B56BB3DD1B709407004AEAB8 /* UIWebView+AFNetworking.m in Sources */,
 				B5EC3DC81B6F321000102584 /* YXBFindViewController.m in Sources */,
+				B5ACC3391B70F6AF00383F92 /* YXBMoneyDetailViewController.m in Sources */,
 				B56BB3C21B709401004AEAB8 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
