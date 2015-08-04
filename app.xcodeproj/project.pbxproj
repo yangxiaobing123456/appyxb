@@ -444,7 +444,7 @@
 			attributes = {
 				CLASSPREFIX = YXB;
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "杨小兵";
+				ORGANIZATIONNAME = yxb;
 				TargetAttributes = {
 					B5EC3D6C1B6F0E1100102584 = {
 						CreatedOnToolsVersion = 6.4;

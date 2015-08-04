@@ -19,28 +19,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"我";
-    [YXBNetworkingTool POSTWithURL:@"www.baidu.com" params:nil success:^(id responseObject) {
+    NSDictionary *paramsDic=@{@"100245":@"uid"};
+    [YXBNetworkingTool POSTWithURL:@"http://121.40.149.58:8080/api/dyn/list1" params:paramsDic success:^(id responseObject) {
+        NSLog(@"%@",responseObject);
         
     } failure:^(NSError *error) {
         
     }];
     // Do any additional setup after loading the view from its nib.
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)push:(id)sender {
     

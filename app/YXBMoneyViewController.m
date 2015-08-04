@@ -3,7 +3,7 @@
 //  app
 //
 //  Created by kpkj-ios on 15/8/3.
-//  Copyright (c) 2015年 kpkj-ios. All rights reserved.
+//  Copyright (c) 2015年 yxb. All rights reserved.
 //
 
 #import "YXBMoneyViewController.h"
@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"资金";
     // Do any additional setup after loading the view from its nib.
 }
 
