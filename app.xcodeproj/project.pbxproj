@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B56BB39D1B707262004AEAB8 /* YXBPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */; };
+		B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */; };
 		B5EC3D731B6F0E1100102584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D721B6F0E1100102584 /* main.m */; };
 		B5EC3D761B6F0E1100102584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D751B6F0E1100102584 /* AppDelegate.m */; };
 		B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7D1B6F0E1100102584 /* Images.xcassets */; };
@@ -41,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B56BB39A1B707262004AEAB8 /* YXBPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBPersonDetailViewController.h; sourceTree = "<group>"; };
+		B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBPersonDetailViewController.m; sourceTree = "<group>"; };
+		B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBPersonDetailViewController.xib; sourceTree = "<group>"; };
 		B5EC3D6D1B6F0E1100102584 /* 365金融圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "365金融圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EC3D711B6F0E1100102584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5EC3D721B6F0E1100102584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -222,6 +227,9 @@
 				B5EC3DC51B6F321000102584 /* YXBFindViewController.h */,
 				B5EC3DC61B6F321000102584 /* YXBFindViewController.m */,
 				B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */,
+				B56BB39A1B707262004AEAB8 /* YXBPersonDetailViewController.h */,
+				B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */,
+				B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */,
 			);
 			name = "Find(发现)";
 			sourceTree = "<group>";
@@ -285,7 +293,7 @@
 			attributes = {
 				CLASSPREFIX = YXB;
 				LastUpgradeCheck = 0640;
-				ORGANIZATIONNAME = "kpkj-ios";
+				ORGANIZATIONNAME = "杨小兵";
 				TargetAttributes = {
 					B5EC3D6C1B6F0E1100102584 = {
 						CreatedOnToolsVersion = 6.4;
@@ -322,6 +330,7 @@
 			files = (
 				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
 				B5EC3D811B6F0E1100102584 /* LaunchScreen.xib in Resources */,
+				B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */,
 				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
 				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
 				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
@@ -356,6 +365,7 @@
 				B5EC3DA71B6F111500102584 /* YXBContactsViewController.m in Sources */,
 				B5EC3DBC1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m in Sources */,
 				B5EC3D9D1B6F105400102584 /* YXBBaseViewController.m in Sources */,
+				B56BB39D1B707262004AEAB8 /* YXBPersonDetailViewController.m in Sources */,
 				B5EC3DC81B6F321000102584 /* YXBFindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
