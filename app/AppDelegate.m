@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "YXBBaseNavigationViewController.h"
+#import "YXBTabBarViewController.h"
+#import "YXBContactsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,29 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    /**
+     *  去掉故事版框架结构
+     */
+    // 创建窗口
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor=[UIColor whiteColor];
+
+    [self.window makeKeyAndVisible];/**< 显示窗成为主窗口 */
+    /**
+     添加YXBTabBarViewController
+     */
+    YXBTabBarViewController *tabbarVC=[[YXBTabBarViewController alloc]init];
+//    YXBContactsViewController *tabbarVC=[[YXBContactsViewController alloc]init];
+    /**
+     *  添加YXBBaseNavigationViewController，控制全局NavigationVC
+     */
+    
+//    YXBBaseNavigationViewController *nav=[[YXBBaseNavigationViewController alloc]initWithRootViewController:tabbarVC];
+    
+    self.window.rootViewController=tabbarVC;
+    
+    
+
     return YES;
 }
 

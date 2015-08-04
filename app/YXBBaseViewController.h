@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  YXBBaseViewController.h
 //  app
 //
 //  Created by kpkj-ios on 15/8/3.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface YXBBaseViewController : UIViewController
 
 @end
-

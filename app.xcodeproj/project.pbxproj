@@ -9,11 +9,25 @@
 /* Begin PBXBuildFile section */
 		B5EC3D731B6F0E1100102584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D721B6F0E1100102584 /* main.m */; };
 		B5EC3D761B6F0E1100102584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D751B6F0E1100102584 /* AppDelegate.m */; };
-		B5EC3D791B6F0E1100102584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D781B6F0E1100102584 /* ViewController.m */; };
-		B5EC3D7C1B6F0E1100102584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7A1B6F0E1100102584 /* Main.storyboard */; };
 		B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7D1B6F0E1100102584 /* Images.xcassets */; };
 		B5EC3D811B6F0E1100102584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7F1B6F0E1100102584 /* LaunchScreen.xib */; };
 		B5EC3D8D1B6F0E1200102584 /* appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D8C1B6F0E1200102584 /* appTests.m */; };
+		B5EC3D9A1B6F101700102584 /* YXBBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D991B6F101700102584 /* YXBBaseNavigationViewController.m */; };
+		B5EC3D9D1B6F105400102584 /* YXBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D9C1B6F105400102584 /* YXBBaseViewController.m */; };
+		B5EC3DA71B6F111500102584 /* YXBContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */; };
+		B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */; };
+		B5EC3DAC1B6F16B300102584 /* UIImage+YXBResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */; };
+		B5EC3DB31B6F1C8C00102584 /* YXBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DB21B6F1C8C00102584 /* YXBTabBarViewController.m */; };
+		B5EC3DBC1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DBB1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m */; };
+		B5EC3DC31B6F31FD00102584 /* YXBMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */; };
+		B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */; };
+		B5EC3DC81B6F321000102584 /* YXBFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DC61B6F321000102584 /* YXBFindViewController.m */; };
+		B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */; };
+		B5EC3DCD1B6F322000102584 /* YXBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */; };
+		B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */; };
+		B5EC3DD21B6F38B100102584 /* YXBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */; };
+		B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */; };
+		B5EC3DE51B6F3EB500102584 /* UIColor+YXBextend.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DE41B6F3EB500102584 /* UIColor+YXBextend.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +46,39 @@
 		B5EC3D721B6F0E1100102584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5EC3D741B6F0E1100102584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B5EC3D751B6F0E1100102584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B5EC3D771B6F0E1100102584 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B5EC3D781B6F0E1100102584 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B5EC3D7B1B6F0E1100102584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5EC3D7D1B6F0E1100102584 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B5EC3D801B6F0E1100102584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B5EC3D861B6F0E1200102584 /* appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EC3D8B1B6F0E1200102584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5EC3D8C1B6F0E1200102584 /* appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appTests.m; sourceTree = "<group>"; };
+		B5EC3D981B6F101700102584 /* YXBBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBBaseNavigationViewController.h; sourceTree = "<group>"; };
+		B5EC3D991B6F101700102584 /* YXBBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBBaseNavigationViewController.m; sourceTree = "<group>"; };
+		B5EC3D9B1B6F105400102584 /* YXBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBBaseViewController.h; sourceTree = "<group>"; };
+		B5EC3D9C1B6F105400102584 /* YXBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBBaseViewController.m; sourceTree = "<group>"; };
+		B5EC3DA41B6F111500102584 /* YXBContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBContactsViewController.h; sourceTree = "<group>"; };
+		B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBContactsViewController.m; sourceTree = "<group>"; };
+		B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBContactsViewController.xib; sourceTree = "<group>"; };
+		B5EC3DAA1B6F16B300102584 /* UIImage+YXBResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YXBResizableImage.h"; sourceTree = "<group>"; };
+		B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YXBResizableImage.m"; sourceTree = "<group>"; };
+		B5EC3DAD1B6F1A3600102584 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		B5EC3DB11B6F1C8C00102584 /* YXBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBTabBarViewController.h; sourceTree = "<group>"; };
+		B5EC3DB21B6F1C8C00102584 /* YXBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBTabBarViewController.m; sourceTree = "<group>"; };
+		B5EC3DBA1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YXBCreate.h"; sourceTree = "<group>"; };
+		B5EC3DBB1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YXBCreate.m"; sourceTree = "<group>"; };
+		B5EC3DC01B6F31FD00102584 /* YXBMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMoneyViewController.h; sourceTree = "<group>"; };
+		B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMoneyViewController.m; sourceTree = "<group>"; };
+		B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMoneyViewController.xib; sourceTree = "<group>"; };
+		B5EC3DC51B6F321000102584 /* YXBFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFindViewController.h; sourceTree = "<group>"; };
+		B5EC3DC61B6F321000102584 /* YXBFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFindViewController.m; sourceTree = "<group>"; };
+		B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBFindViewController.xib; sourceTree = "<group>"; };
+		B5EC3DCA1B6F322000102584 /* YXBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMeViewController.h; sourceTree = "<group>"; };
+		B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMeViewController.m; sourceTree = "<group>"; };
+		B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMeViewController.xib; sourceTree = "<group>"; };
+		B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMessageViewController.h; sourceTree = "<group>"; };
+		B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMessageViewController.m; sourceTree = "<group>"; };
+		B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMessageViewController.xib; sourceTree = "<group>"; };
+		B5EC3DE31B6F3EB500102584 /* UIColor+YXBextend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YXBextend.h"; sourceTree = "<group>"; };
+		B5EC3DE41B6F3EB500102584 /* UIColor+YXBextend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YXBextend.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +120,13 @@
 		B5EC3D6F1B6F0E1100102584 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				B5EC3D741B6F0E1100102584 /* AppDelegate.h */,
-				B5EC3D751B6F0E1100102584 /* AppDelegate.m */,
-				B5EC3D771B6F0E1100102584 /* ViewController.h */,
-				B5EC3D781B6F0E1100102584 /* ViewController.m */,
-				B5EC3D7A1B6F0E1100102584 /* Main.storyboard */,
+				B5EC3DA91B6F162000102584 /* Category（自定义的第三方类别） */,
+				B5EC3D961B6F0ECF00102584 /* Other(系统的一些类和方法) */,
+				B5EC3D971B6F0F0A00102584 /* Base(基础类) */,
+				B5EC3D9E1B6F106100102584 /* contacts（人脉） */,
+				B5EC3DBD1B6F315700102584 /* money（资金） */,
+				B5EC3DBE1B6F317500102584 /* Find(发现) */,
+				B5EC3DBF1B6F319400102584 /* me（我） */,
 				B5EC3D7D1B6F0E1100102584 /* Images.xcassets */,
 				B5EC3D7F1B6F0E1100102584 /* LaunchScreen.xib */,
 				B5EC3D701B6F0E1100102584 /* Supporting Files */,
@@ -117,6 +158,85 @@
 				B5EC3D8B1B6F0E1200102584 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5EC3D961B6F0ECF00102584 /* Other(系统的一些类和方法) */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D741B6F0E1100102584 /* AppDelegate.h */,
+				B5EC3D751B6F0E1100102584 /* AppDelegate.m */,
+				B5EC3DAD1B6F1A3600102584 /* Define.h */,
+			);
+			name = "Other(系统的一些类和方法)";
+			sourceTree = "<group>";
+		};
+		B5EC3D971B6F0F0A00102584 /* Base(基础类) */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D981B6F101700102584 /* YXBBaseNavigationViewController.h */,
+				B5EC3D991B6F101700102584 /* YXBBaseNavigationViewController.m */,
+				B5EC3D9B1B6F105400102584 /* YXBBaseViewController.h */,
+				B5EC3D9C1B6F105400102584 /* YXBBaseViewController.m */,
+				B5EC3DB11B6F1C8C00102584 /* YXBTabBarViewController.h */,
+				B5EC3DB21B6F1C8C00102584 /* YXBTabBarViewController.m */,
+			);
+			name = "Base(基础类)";
+			sourceTree = "<group>";
+		};
+		B5EC3D9E1B6F106100102584 /* contacts（人脉） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DA41B6F111500102584 /* YXBContactsViewController.h */,
+				B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */,
+				B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */,
+			);
+			name = "contacts（人脉）";
+			sourceTree = "<group>";
+		};
+		B5EC3DA91B6F162000102584 /* Category（自定义的第三方类别） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DAA1B6F16B300102584 /* UIImage+YXBResizableImage.h */,
+				B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */,
+				B5EC3DBA1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.h */,
+				B5EC3DBB1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m */,
+				B5EC3DE31B6F3EB500102584 /* UIColor+YXBextend.h */,
+				B5EC3DE41B6F3EB500102584 /* UIColor+YXBextend.m */,
+			);
+			name = "Category（自定义的第三方类别）";
+			sourceTree = "<group>";
+		};
+		B5EC3DBD1B6F315700102584 /* money（资金） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DC01B6F31FD00102584 /* YXBMoneyViewController.h */,
+				B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */,
+				B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */,
+			);
+			name = "money（资金）";
+			sourceTree = "<group>";
+		};
+		B5EC3DBE1B6F317500102584 /* Find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DC51B6F321000102584 /* YXBFindViewController.h */,
+				B5EC3DC61B6F321000102584 /* YXBFindViewController.m */,
+				B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */,
+			);
+			name = "Find(发现)";
+			sourceTree = "<group>";
+		};
+		B5EC3DBF1B6F319400102584 /* me（我） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DCA1B6F322000102584 /* YXBMeViewController.h */,
+				B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */,
+				B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */,
+				B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */,
+				B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */,
+				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
+			);
+			name = "me（我）";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +283,7 @@
 		B5EC3D651B6F0E1100102584 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YXB;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "kpkj-ios";
 				TargetAttributes = {
@@ -199,8 +320,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5EC3D7C1B6F0E1100102584 /* Main.storyboard in Resources */,
+				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
 				B5EC3D811B6F0E1100102584 /* LaunchScreen.xib in Resources */,
+				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
+				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
+				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
+				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5EC3D791B6F0E1100102584 /* ViewController.m in Sources */,
+				B5EC3DCD1B6F322000102584 /* YXBMeViewController.m in Sources */,
+				B5EC3DB31B6F1C8C00102584 /* YXBTabBarViewController.m in Sources */,
+				B5EC3D9A1B6F101700102584 /* YXBBaseNavigationViewController.m in Sources */,
+				B5EC3DAC1B6F16B300102584 /* UIImage+YXBResizableImage.m in Sources */,
+				B5EC3DE51B6F3EB500102584 /* UIColor+YXBextend.m in Sources */,
+				B5EC3DD21B6F38B100102584 /* YXBMessageViewController.m in Sources */,
+				B5EC3DC31B6F31FD00102584 /* YXBMoneyViewController.m in Sources */,
 				B5EC3D761B6F0E1100102584 /* AppDelegate.m in Sources */,
 				B5EC3D731B6F0E1100102584 /* main.m in Sources */,
+				B5EC3DA71B6F111500102584 /* YXBContactsViewController.m in Sources */,
+				B5EC3DBC1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m in Sources */,
+				B5EC3D9D1B6F105400102584 /* YXBBaseViewController.m in Sources */,
+				B5EC3DC81B6F321000102584 /* YXBFindViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +379,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B5EC3D7A1B6F0E1100102584 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B5EC3D7B1B6F0E1100102584 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B5EC3D7F1B6F0E1100102584 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -350,6 +477,7 @@
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,6 +488,7 @@
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
