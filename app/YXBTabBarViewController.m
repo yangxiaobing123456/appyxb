@@ -24,8 +24,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    /**
+     *  设置tabBar的背景颜色
+     */
+    //self.tabBar.backgroundColor=[UIColor yellowColor];
     [self setUpAllChildViewController];
-    // Do any additional setup after loading the view.
+    
 }
 
 - (void)setUpAllChildViewController/**< 添加所有子控制器 */
@@ -59,9 +63,26 @@
  */
 - (void)setUpOneChildViewController:(UIViewController *)vc title:(NSString *)title imageName:(NSString *)imageName selImageName:(NSString *)selImageName
 {
-    vc.tabBarItem.title = title;
+    vc.tabBarItem.title = title;/**< 设置标题 */
+    /**
+     *  设置UIControlStateNormal状态下的字体颜色
+     */
+    NSMutableDictionary *dictM = [NSMutableDictionary dictionary];
+    dictM[NSForegroundColorAttributeName] = [UIColor blackColor];
+    [vc.tabBarItem setTitleTextAttributes:dictM forState:UIControlStateNormal];
     
+    /**
+     *  设置UIControlStateSelected下的字体颜色
+     */
+    NSMutableDictionary *selectDictM = [NSMutableDictionary dictionary];
+    selectDictM[NSForegroundColorAttributeName] = YXBCOLOR(255, 87, 35, 1);
+    [vc.tabBarItem setTitleTextAttributes:selectDictM forState:UIControlStateSelected];
+    
+    /**
+     *  设置tabBarItem的图片
+     */
     vc.tabBarItem.image = [UIImage imageNamed:imageName];
+    
     UIImage *selImage = [UIImage imageNamed:selImageName];
     if (iOS7) {
         selImage = [selImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
@@ -83,14 +104,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

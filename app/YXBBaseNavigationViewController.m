@@ -25,7 +25,6 @@
                                        forBarMetrics:UIBarMetricsDefault];
     [self setUpNavBarTitle];
     [self setUpNavBarButton];
-    
 }
 /**
  *  设置全局的NavBarButton
@@ -43,7 +42,6 @@
     // 设置普通状态下的按钮颜色
     [item setTitleTextAttributes:normalDictM forState:UIControlStateNormal];
     
-
 }
 /**
  *  设置导航条的标题
