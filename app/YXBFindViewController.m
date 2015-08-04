@@ -7,7 +7,8 @@
 //
 
 #import "YXBFindViewController.h"
-
+#import "UIBarButtonItem+YXBCreate.h"
+#import "YXBMessageViewController.h"
 @interface YXBFindViewController ()
 
 @end
@@ -17,9 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"发现";
+    UIBarButtonItem *popPre = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(popToPre)];
+    self.navigationItem.rightBarButtonItem = popPre;
     // Do any additional setup after loading the view from its nib.
 }
+-(void)popToPre
+{
 
+    YXBMessageViewController *messageVC=[[YXBMessageViewController alloc]init];
+    [self.navigationController pushViewController:messageVC animated:YES];
+
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

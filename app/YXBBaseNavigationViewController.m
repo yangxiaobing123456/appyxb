@@ -34,19 +34,17 @@
     UIBarButtonItem *item = [UIBarButtonItem appearance];
     // 设置不可用状态下的按钮颜色
     NSMutableDictionary *disableDictM = [NSMutableDictionary dictionary];
-    disableDictM[NSForegroundColorAttributeName] = [UIColor lightGrayColor];
+    disableDictM[NSForegroundColorAttributeName] = [UIColor blackColor];
     [item setTitleTextAttributes:disableDictM forState:UIControlStateDisabled];
     
     NSMutableDictionary *normalDictM = [NSMutableDictionary dictionary];
-    normalDictM[NSForegroundColorAttributeName] = [UIColor orangeColor];
+    normalDictM[NSForegroundColorAttributeName] = [UIColor blackColor];
     // 设置普通状态下的按钮颜色
     [item setTitleTextAttributes:normalDictM forState:UIControlStateNormal];
     
 }
 /**
  *  设置导航条的标题
- *
- *  @return void
  */
 - (void)setUpNavBarTitle
 {
@@ -59,7 +57,6 @@
 }
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
-    
     if (self.childViewControllers.count) {  /**< 不是根控制器 */
         viewController.hidesBottomBarWhenPushed = YES;
         
@@ -80,14 +77,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -29,6 +29,9 @@
                 <constraint firstAttribute="centerY" secondItem="MdS-zC-o9H" secondAttribute="centerY" id="5uK-1n-AbU"/>
                 <constraint firstAttribute="centerX" secondItem="MdS-zC-o9H" secondAttribute="centerX" id="EL5-yo-rdK"/>
             </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="280" y="323"/>
         </view>
     </objects>
 </document>

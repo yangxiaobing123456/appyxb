@@ -8,6 +8,7 @@
 
 #import "YXBMeViewController.h"
 #import "YXBMessageViewController.h"
+#import "Define.h"
 @interface YXBMeViewController ()
 - (IBAction)push:(id)sender;
 
@@ -18,6 +19,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"我";
+    [YXBNetworkingTool POSTWithURL:@"www.baidu.com" params:nil success:^(id responseObject) {
+        
+    } failure:^(NSError *error) {
+        
+    }];
     // Do any additional setup after loading the view from its nib.
 }
 

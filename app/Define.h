@@ -53,13 +53,11 @@
 /**
  *  获取本地文件（图片、plist等）
  */
-#define YXBLOADIMAGE(file,ext) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:ext]]
-
+#define YXBFile(file,ext) [[NSBundle mainBundle]pathForResource:file ofType:ext]
 /**
- *  获取UIImage对象
+ *  获取本地图片
  */
-#define YXBIMAGE(A) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:A ofType:nil]]
-
+#define YXBLoadImage(file,ext) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:ext]]
 
 /**
  *  获取UIImage对象
@@ -70,8 +68,6 @@
  *  获取屏幕的KeyWindow
  */
 #define YXBKeyWindow [UIApplication sharedApplication].keyWindow
-
-
 /**
  *  NSLog输出
  */
@@ -81,7 +77,50 @@
 #define YXBLog(...)
 #endif
 
+#define YXBAlertView(msg,title) [[[UIAlertView alloc]initWithTitle:@"温馨提示" message:msg delegate:nil cancelButtonTitle:title otherButtonTitles:nil, nil] show];
 
 #import "UIImage+YXBResizableImage.h"
 #import "UIBarButtonItem+YXBCreate.h"
+#import "YXBNetworkingTool.h"
+
+
+
+
+
+
+
+
+
+/**
+ *  设置单例类
+ *
+ *  @param class singleton_interface
+ *
+ *  @return 注意使用，不可乱用
+ */
+// .h
+#define singleton_interface(class) + (instancetype)shared##class;
+
+// .m
+#define singleton_implementation(class) \
+static class *_instance; \
+\
++ (id)allocWithZone:(struct _NSZone *)zone \
+{ \
+static dispatch_once_t onceToken; \
+dispatch_once(&onceToken, ^{ \
+_instance = [super allocWithZone:zone]; \
+}); \
+\
+return _instance; \
+} \
+\
++ (instancetype)shared##class \
+{ \
+if (_instance == nil) { \
+_instance = [[class alloc] init]; \
+} \
+\
+return _instance; \
+}
 #endif
