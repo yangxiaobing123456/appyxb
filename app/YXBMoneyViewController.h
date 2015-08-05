@@ -9,5 +9,6 @@
 #import "YXBBaseViewController.h"
 
 @interface YXBMoneyViewController : YXBBaseViewController
+@property (weak, nonatomic) IBOutlet UIButton *clickBtn;
 
 @end

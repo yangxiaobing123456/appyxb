@@ -62,7 +62,7 @@
 /**
  *  获取UIImage对象
  */
-#define YXBImageNamed(_pointer) [UIImage imageNamed:[UIUtil imageName:_pointer]]
+#define YXBImageNamed(_pointer) [UIImage imageNamed:_pointer]
 
 /**
  *  获取屏幕的KeyWindow
@@ -83,9 +83,9 @@
 #import "UIBarButtonItem+YXBCreate.h"
 #import "YXBNetworkingTool.h"
 #import "UIViewController+ENPopUp.h"
-
-
-
+#import "YXBUserDefaultsInfo.h"
+#import "UIView+YXBFrame.h"
+#import "YXBHttpRequest.h"
 
 
 

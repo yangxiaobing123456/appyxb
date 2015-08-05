@@ -19,13 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"我";
-    NSDictionary *paramsDic=@{@"100245":@"uid"};
-    [YXBNetworkingTool POSTWithURL:@"http://121.40.149.58:8080/api/dyn/list1" params:paramsDic success:^(id responseObject) {
-        NSLog(@"%@",responseObject);
-        
-    } failure:^(NSError *error) {
-        
-    }];
+    
     // Do any additional setup after loading the view from its nib.
 }
 

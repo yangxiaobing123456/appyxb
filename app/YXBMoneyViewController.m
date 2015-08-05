@@ -18,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"资金";
+    [YXBUserDefaultsInfo YXBsetlayerCornerRadiusAndmasksToBounds:self.clickBtn radius:10];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -27,11 +28,10 @@
 }
 - (IBAction)btnClick:(id)sender {
     YXBMoneyDetailViewController *moneyDetailVC=[[YXBMoneyDetailViewController alloc]init];
+    moneyDetailVC.block=^(NSString *str){
+        [sender setTitle:str forState:UIControlStateNormal];
+    };
     [self presentPopUpViewController:moneyDetailVC];
-//    [self presentViewController:moneyDetailVC animated:YES completion:^{
-//        
-//        
-//    }];
     
 }
 

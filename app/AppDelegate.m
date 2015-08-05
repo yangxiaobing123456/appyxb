@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "YXBBaseNavigationViewController.h"
+#import "Define.h"
 #import "YXBTabBarViewController.h"
 #import "YXBContactsViewController.h"
 @interface AppDelegate ()
@@ -30,12 +30,7 @@
      添加YXBTabBarViewController
      */
     YXBTabBarViewController *tabbarVC=[[YXBTabBarViewController alloc]init];
-//    YXBContactsViewController *tabbarVC=[[YXBContactsViewController alloc]init];
-    /**
-     *  添加YXBBaseNavigationViewController，控制全局NavigationVC
-     */
-    
-//    YXBBaseNavigationViewController *nav=[[YXBBaseNavigationViewController alloc]initWithRootViewController:tabbarVC];
+    YXBLog(@"%@",[YXBUserDefaultsInfo YXBgetDocumentsPath]);
     
     self.window.rootViewController=tabbarVC;
     

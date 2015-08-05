@@ -7,35 +7,73 @@
 //
 
 #import "YXBContactsViewController.h"
-
+#import "Define.h"
+#import "YXBAllModel.h"
+#import "YXBContactsTableViewCell.h"
+#import "UIImageView+WebCache.h"
 @interface YXBContactsViewController ()
 
 @end
 
 @implementation YXBContactsViewController
-
+-(NSMutableArray*)dataInfoArray
+{
+    if (!_dataInfoArray) {
+        _dataInfoArray=[[NSMutableArray alloc]initWithCapacity:0];
+    }
+    return _dataInfoArray;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    UIColor * color = [UIColor blackColor];
-//    NSDictionary * dict=[NSDictionary dictionaryWithObject:color forKey:NSForegroundColorAttributeName];
-//    [self.navigationController.navigationBar setTitleTextAttributes:dict];
     self.title=@"人脉";
+    self.myTable.rowHeight=UITableViewAutomaticDimension;
+    self.myTable.estimatedRowHeight=100;
     // Do any additional setup after loading the view from its nib.
 }
+-(void)viewWillAppear:(BOOL)animated
+{
 
+    [YXBHttpRequest YXBgetContactsData:@"100245" complete:^(NSMutableArray *arr) {
+        self.dataInfoArray=arr;
+        [self.myTable reloadData];
+    }];
+
+    [super viewWillAppear:animated];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.dataInfoArray.count;
 }
-*/
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *ID=@"cell";
+    YXBContactsTableViewCell *cell=[tableView dequeueReusableCellWithIdentifier:ID];
+    if (!cell) {
+        cell=[[NSBundle mainBundle]loadNibNamed:@"YXBContactsTableViewCell" owner:self options:nil][0];
+    }
+    YXBAllModel *model=self.dataInfoArray[indexPath.row];
+    [cell.icon setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://121.40.149.58:8080/%@",model.usericon]] placeholderImage:YXBImageNamed(@"040")];
+    YXBLog(@"%@",model.attachphoto);
+    if (model.attachphoto.length>0) {
+        [cell.contentImageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://121.40.149.58:8080/%@",model.attachphotoBig]]];
+        //YXBLog(@"%@",[NSString stringWithFormat:@"http://121.40.149.58:8080/%@",model.attachphotoBig]);
+        cell.contentW.constant=60;
+        cell.contentH.constant=60;
+    }
+    else
+    {
+        cell.contentW.constant=0;
+        cell.contentH.constant=0;
+    }
+    cell.personInfoLb.text=model.content;
+    cell.name.text=model.name;
+    return cell;
+}
+
 
 @end

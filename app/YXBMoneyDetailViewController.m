@@ -7,7 +7,7 @@
 //
 
 #import "YXBMoneyDetailViewController.h"
-
+#import "UIViewController+ENPopUp.h"
 @interface YXBMoneyDetailViewController ()
 
 @end
@@ -22,6 +22,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)btnClick:(id)sender {
+    self.block(@"把值传过来");
+    [self dismissPopUpViewController];
+    
 }
 
 /*

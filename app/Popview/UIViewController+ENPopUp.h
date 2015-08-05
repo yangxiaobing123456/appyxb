@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface UIViewController (ENPopUp)
-
+//typedef void(^returnBlock)(NSString *);
 @property (nonatomic, retain) UIViewController *en_popupViewController;
 /**
  *  类别方法自定义弹出VC

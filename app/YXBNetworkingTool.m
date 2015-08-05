@@ -19,6 +19,7 @@
         YXBAlertView(@"网络连接失败，请检查网络", @"知道了");
         return;
     }
+    
     // AFNetWorking
     // 创建请求管理对象
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];

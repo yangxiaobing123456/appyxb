@@ -69,8 +69,6 @@ static NSInteger const kENPopUpBluredViewTag    = 351303;
     // Add Blured View
     JWBlurView *bluredView = [[JWBlurView alloc] initWithFrame:overlayView.bounds];
     bluredView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    UIPanGestureRecognizer *panGestureR=[[UIPanGestureRecognizer alloc]initWithTarget:self action:@selector(removeAllView)];
-    [bluredView addGestureRecognizer:panGestureR];
     bluredView.tag = kENPopUpBluredViewTag;
     [bluredView setBlurAlpha:.0f];
     [bluredView setAlpha:.0f];
@@ -81,7 +79,7 @@ static NSInteger const kENPopUpBluredViewTag    = 351303;
     // Make the background clickable
     UIButton * dismissButton = [UIButton buttonWithType:UIButtonTypeCustom];
     dismissButton.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
-    dismissButton.backgroundColor = [UIColor yellowColor];
+    dismissButton.backgroundColor = [UIColor colorWithRed:1/225 green:1/225 blue:1/225 alpha:0.1];
     dismissButton.frame = sourceView.bounds;
     [overlayView addSubview:dismissButton];
     

@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^returnBlock)(NSString *);
 @interface YXBMoneyDetailViewController : UIViewController
-
+@property (nonatomic,copy) returnBlock block;
 @end
