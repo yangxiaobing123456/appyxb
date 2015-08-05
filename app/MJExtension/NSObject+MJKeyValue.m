@@ -261,6 +261,7 @@
     if ([self respondsToSelector:@selector(replacedKeyFromPropertyName)]) {
         key = self.replacedKeyFromPropertyName[propertyName];
     }
+    
     // 2.用属性名作为key
     if (!key) key = propertyName;
     
