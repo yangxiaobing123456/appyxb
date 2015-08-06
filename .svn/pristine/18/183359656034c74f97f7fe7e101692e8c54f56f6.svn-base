@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5EC3D731B6F0E1100102584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D721B6F0E1100102584 /* main.m */; };
+		B5EC3D761B6F0E1100102584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D751B6F0E1100102584 /* AppDelegate.m */; };
+		B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7D1B6F0E1100102584 /* Images.xcassets */; };
+		B5EC3D811B6F0E1100102584 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3D7F1B6F0E1100102584 /* LaunchScreen.xib */; };
+		B5EC3D8D1B6F0E1200102584 /* appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D8C1B6F0E1200102584 /* appTests.m */; };
+		B5EC3D9A1B6F101700102584 /* YXBBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D991B6F101700102584 /* YXBBaseNavigationViewController.m */; };
+		B5EC3D9D1B6F105400102584 /* YXBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3D9C1B6F105400102584 /* YXBBaseViewController.m */; };
+		B5EC3DA71B6F111500102584 /* YXBContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */; };
+		B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */; };
+		B5EC3DAC1B6F16B300102584 /* UIImage+YXBResizableImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */; };
+		B5EC3DB31B6F1C8C00102584 /* YXBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DB21B6F1C8C00102584 /* YXBTabBarViewController.m */; };
+		B5EC3DBC1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DBB1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m */; };
+		B5EC3DC31B6F31FD00102584 /* YXBMoneyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */; };
+		B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */; };
+		B5EC3DC81B6F321000102584 /* YXBFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DC61B6F321000102584 /* YXBFindViewController.m */; };
+		B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */; };
+		B5EC3DCD1B6F322000102584 /* YXBMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */; };
+		B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */; };
+		B5EC3DD21B6F38B100102584 /* YXBMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */; };
+		B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */; };
+		B5EC3DE51B6F3EB500102584 /* UIColor+YXBextend.m in Sources */ = {isa = PBXBuildFile; fileRef = B5EC3DE41B6F3EB500102584 /* UIColor+YXBextend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5EC3D871B6F0E1200102584 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5EC3D651B6F0E1100102584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5EC3D6C1B6F0E1100102584;
+			remoteInfo = app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B5EC3D6D1B6F0E1100102584 /* 365金融圈.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "365金融圈.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EC3D711B6F0E1100102584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EC3D721B6F0E1100102584 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5EC3D741B6F0E1100102584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5EC3D751B6F0E1100102584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5EC3D7D1B6F0E1100102584 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B5EC3D801B6F0E1100102584 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B5EC3D861B6F0E1200102584 /* appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EC3D8B1B6F0E1200102584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5EC3D8C1B6F0E1200102584 /* appTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appTests.m; sourceTree = "<group>"; };
+		B5EC3D981B6F101700102584 /* YXBBaseNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBBaseNavigationViewController.h; sourceTree = "<group>"; };
+		B5EC3D991B6F101700102584 /* YXBBaseNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBBaseNavigationViewController.m; sourceTree = "<group>"; };
+		B5EC3D9B1B6F105400102584 /* YXBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBBaseViewController.h; sourceTree = "<group>"; };
+		B5EC3D9C1B6F105400102584 /* YXBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBBaseViewController.m; sourceTree = "<group>"; };
+		B5EC3DA41B6F111500102584 /* YXBContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBContactsViewController.h; sourceTree = "<group>"; };
+		B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBContactsViewController.m; sourceTree = "<group>"; };
+		B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBContactsViewController.xib; sourceTree = "<group>"; };
+		B5EC3DAA1B6F16B300102584 /* UIImage+YXBResizableImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YXBResizableImage.h"; sourceTree = "<group>"; };
+		B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YXBResizableImage.m"; sourceTree = "<group>"; };
+		B5EC3DAD1B6F1A3600102584 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		B5EC3DB11B6F1C8C00102584 /* YXBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBTabBarViewController.h; sourceTree = "<group>"; };
+		B5EC3DB21B6F1C8C00102584 /* YXBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBTabBarViewController.m; sourceTree = "<group>"; };
+		B5EC3DBA1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+YXBCreate.h"; sourceTree = "<group>"; };
+		B5EC3DBB1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+YXBCreate.m"; sourceTree = "<group>"; };
+		B5EC3DC01B6F31FD00102584 /* YXBMoneyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMoneyViewController.h; sourceTree = "<group>"; };
+		B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMoneyViewController.m; sourceTree = "<group>"; };
+		B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMoneyViewController.xib; sourceTree = "<group>"; };
+		B5EC3DC51B6F321000102584 /* YXBFindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBFindViewController.h; sourceTree = "<group>"; };
+		B5EC3DC61B6F321000102584 /* YXBFindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBFindViewController.m; sourceTree = "<group>"; };
+		B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBFindViewController.xib; sourceTree = "<group>"; };
+		B5EC3DCA1B6F322000102584 /* YXBMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMeViewController.h; sourceTree = "<group>"; };
+		B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMeViewController.m; sourceTree = "<group>"; };
+		B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMeViewController.xib; sourceTree = "<group>"; };
+		B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBMessageViewController.h; sourceTree = "<group>"; };
+		B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBMessageViewController.m; sourceTree = "<group>"; };
+		B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBMessageViewController.xib; sourceTree = "<group>"; };
+		B5EC3DE31B6F3EB500102584 /* UIColor+YXBextend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YXBextend.h"; sourceTree = "<group>"; };
+		B5EC3DE41B6F3EB500102584 /* UIColor+YXBextend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YXBextend.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5EC3D6A1B6F0E1100102584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC3D831B6F0E1200102584 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5EC3D641B6F0E1100102584 = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D6F1B6F0E1100102584 /* app */,
+				B5EC3D891B6F0E1200102584 /* appTests */,
+				B5EC3D6E1B6F0E1100102584 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5EC3D6E1B6F0E1100102584 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D6D1B6F0E1100102584 /* 365金融圈.app */,
+				B5EC3D861B6F0E1200102584 /* appTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5EC3D6F1B6F0E1100102584 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DA91B6F162000102584 /* Category（自定义的第三方类别） */,
+				B5EC3D961B6F0ECF00102584 /* Other(系统的一些类和方法) */,
+				B5EC3D971B6F0F0A00102584 /* Base(基础类) */,
+				B5EC3D9E1B6F106100102584 /* contacts（人脉） */,
+				B5EC3DBD1B6F315700102584 /* money（资金） */,
+				B5EC3DBE1B6F317500102584 /* Find(发现) */,
+				B5EC3DBF1B6F319400102584 /* me（我） */,
+				B5EC3D7D1B6F0E1100102584 /* Images.xcassets */,
+				B5EC3D7F1B6F0E1100102584 /* LaunchScreen.xib */,
+				B5EC3D701B6F0E1100102584 /* Supporting Files */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		B5EC3D701B6F0E1100102584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D711B6F0E1100102584 /* Info.plist */,
+				B5EC3D721B6F0E1100102584 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5EC3D891B6F0E1200102584 /* appTests */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D8C1B6F0E1200102584 /* appTests.m */,
+				B5EC3D8A1B6F0E1200102584 /* Supporting Files */,
+			);
+			path = appTests;
+			sourceTree = "<group>";
+		};
+		B5EC3D8A1B6F0E1200102584 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D8B1B6F0E1200102584 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5EC3D961B6F0ECF00102584 /* Other(系统的一些类和方法) */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D741B6F0E1100102584 /* AppDelegate.h */,
+				B5EC3D751B6F0E1100102584 /* AppDelegate.m */,
+				B5EC3DAD1B6F1A3600102584 /* Define.h */,
+			);
+			name = "Other(系统的一些类和方法)";
+			sourceTree = "<group>";
+		};
+		B5EC3D971B6F0F0A00102584 /* Base(基础类) */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3D981B6F101700102584 /* YXBBaseNavigationViewController.h */,
+				B5EC3D991B6F101700102584 /* YXBBaseNavigationViewController.m */,
+				B5EC3D9B1B6F105400102584 /* YXBBaseViewController.h */,
+				B5EC3D9C1B6F105400102584 /* YXBBaseViewController.m */,
+				B5EC3DB11B6F1C8C00102584 /* YXBTabBarViewController.h */,
+				B5EC3DB21B6F1C8C00102584 /* YXBTabBarViewController.m */,
+			);
+			name = "Base(基础类)";
+			sourceTree = "<group>";
+		};
+		B5EC3D9E1B6F106100102584 /* contacts（人脉） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DA41B6F111500102584 /* YXBContactsViewController.h */,
+				B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */,
+				B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */,
+			);
+			name = "contacts（人脉）";
+			sourceTree = "<group>";
+		};
+		B5EC3DA91B6F162000102584 /* Category（自定义的第三方类别） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DAA1B6F16B300102584 /* UIImage+YXBResizableImage.h */,
+				B5EC3DAB1B6F16B300102584 /* UIImage+YXBResizableImage.m */,
+				B5EC3DBA1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.h */,
+				B5EC3DBB1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m */,
+				B5EC3DE31B6F3EB500102584 /* UIColor+YXBextend.h */,
+				B5EC3DE41B6F3EB500102584 /* UIColor+YXBextend.m */,
+			);
+			name = "Category（自定义的第三方类别）";
+			sourceTree = "<group>";
+		};
+		B5EC3DBD1B6F315700102584 /* money（资金） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DC01B6F31FD00102584 /* YXBMoneyViewController.h */,
+				B5EC3DC11B6F31FD00102584 /* YXBMoneyViewController.m */,
+				B5EC3DC21B6F31FD00102584 /* YXBMoneyViewController.xib */,
+			);
+			name = "money（资金）";
+			sourceTree = "<group>";
+		};
+		B5EC3DBE1B6F317500102584 /* Find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DC51B6F321000102584 /* YXBFindViewController.h */,
+				B5EC3DC61B6F321000102584 /* YXBFindViewController.m */,
+				B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */,
+			);
+			name = "Find(发现)";
+			sourceTree = "<group>";
+		};
+		B5EC3DBF1B6F319400102584 /* me（我） */ = {
+			isa = PBXGroup;
+			children = (
+				B5EC3DCA1B6F322000102584 /* YXBMeViewController.h */,
+				B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */,
+				B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */,
+				B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */,
+				B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */,
+				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
+			);
+			name = "me（我）";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5EC3D6C1B6F0E1100102584 /* app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EC3D901B6F0E1200102584 /* Build configuration list for PBXNativeTarget "app" */;
+			buildPhases = (
+				B5EC3D691B6F0E1100102584 /* Sources */,
+				B5EC3D6A1B6F0E1100102584 /* Frameworks */,
+				B5EC3D6B1B6F0E1100102584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = app;
+			productName = app;
+			productReference = B5EC3D6D1B6F0E1100102584 /* 365金融圈.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B5EC3D851B6F0E1200102584 /* appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5EC3D931B6F0E1200102584 /* Build configuration list for PBXNativeTarget "appTests" */;
+			buildPhases = (
+				B5EC3D821B6F0E1200102584 /* Sources */,
+				B5EC3D831B6F0E1200102584 /* Frameworks */,
+				B5EC3D841B6F0E1200102584 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B5EC3D881B6F0E1200102584 /* PBXTargetDependency */,
+			);
+			name = appTests;
+			productName = appTests;
+			productReference = B5EC3D861B6F0E1200102584 /* appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5EC3D651B6F0E1100102584 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YXB;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "kpkj-ios";
+				TargetAttributes = {
+					B5EC3D6C1B6F0E1100102584 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					B5EC3D851B6F0E1200102584 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = B5EC3D6C1B6F0E1100102584;
+					};
+				};
+			};
+			buildConfigurationList = B5EC3D681B6F0E1100102584 /* Build configuration list for PBXProject "app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5EC3D641B6F0E1100102584;
+			productRefGroup = B5EC3D6E1B6F0E1100102584 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5EC3D6C1B6F0E1100102584 /* app */,
+				B5EC3D851B6F0E1200102584 /* appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5EC3D6B1B6F0E1100102584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
+				B5EC3D811B6F0E1100102584 /* LaunchScreen.xib in Resources */,
+				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
+				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
+				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
+				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
+				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC3D841B6F0E1200102584 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5EC3D691B6F0E1100102584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC3DCD1B6F322000102584 /* YXBMeViewController.m in Sources */,
+				B5EC3DB31B6F1C8C00102584 /* YXBTabBarViewController.m in Sources */,
+				B5EC3D9A1B6F101700102584 /* YXBBaseNavigationViewController.m in Sources */,
+				B5EC3DAC1B6F16B300102584 /* UIImage+YXBResizableImage.m in Sources */,
+				B5EC3DE51B6F3EB500102584 /* UIColor+YXBextend.m in Sources */,
+				B5EC3DD21B6F38B100102584 /* YXBMessageViewController.m in Sources */,
+				B5EC3DC31B6F31FD00102584 /* YXBMoneyViewController.m in Sources */,
+				B5EC3D761B6F0E1100102584 /* AppDelegate.m in Sources */,
+				B5EC3D731B6F0E1100102584 /* main.m in Sources */,
+				B5EC3DA71B6F111500102584 /* YXBContactsViewController.m in Sources */,
+				B5EC3DBC1B6F2CC500102584 /* UIBarButtonItem+YXBCreate.m in Sources */,
+				B5EC3D9D1B6F105400102584 /* YXBBaseViewController.m in Sources */,
+				B5EC3DC81B6F321000102584 /* YXBFindViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5EC3D821B6F0E1200102584 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5EC3D8D1B6F0E1200102584 /* appTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B5EC3D881B6F0E1200102584 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B5EC3D6C1B6F0E1100102584 /* app */;
+			targetProxy = B5EC3D871B6F0E1200102584 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B5EC3D7F1B6F0E1100102584 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5EC3D801B6F0E1100102584 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5EC3D8E1B6F0E1200102584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5EC3D8F1B6F0E1200102584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5EC3D911B6F0E1200102584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "365金融圈";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B5EC3D921B6F0E1200102584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = app/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "365金融圈";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B5EC3D941B6F0E1200102584 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = appTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app.app/app";
+			};
+			name = Debug;
+		};
+		B5EC3D951B6F0E1200102584 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = appTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = appTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/app.app/app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5EC3D681B6F0E1100102584 /* Build configuration list for PBXProject "app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC3D8E1B6F0E1200102584 /* Debug */,
+				B5EC3D8F1B6F0E1200102584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EC3D901B6F0E1200102584 /* Build configuration list for PBXNativeTarget "app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC3D911B6F0E1200102584 /* Debug */,
+				B5EC3D921B6F0E1200102584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5EC3D931B6F0E1200102584 /* Build configuration list for PBXNativeTarget "appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5EC3D941B6F0E1200102584 /* Debug */,
+				B5EC3D951B6F0E1200102584 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5EC3D651B6F0E1100102584 /* Project object */;
+}
