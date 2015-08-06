@@ -21,4 +21,8 @@
  *  @return 返回拉伸后的图片
  */
 +(UIImage *)resizableImage:(NSString *)resizableImageName top:(CGFloat)top bottom:(CGFloat)bottom left:(CGFloat)left right:(CGFloat)right;
+/**
+ *返回中心拉伸的图片
+ */
++(UIImage *)YXBstretchedImageWithName:(NSString *)name;
 @end

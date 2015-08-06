@@ -79,12 +79,11 @@
 
 #define YXBAlertView(msg,title) [[[UIAlertView alloc]initWithTitle:@"温馨提示" message:msg delegate:nil cancelButtonTitle:title otherButtonTitles:nil, nil] show];
 
-#import "UIImage+YXBResizableImage.h"
-#import "UIBarButtonItem+YXBCreate.h"
+#import "YXBCategory.h"
 #import "YXBNetworkingTool.h"
-#import "UIViewController+ENPopUp.h"
+
 #import "YXBUserDefaultsInfo.h"
-#import "UIView+YXBFrame.h"
+
 #import "YXBHttpRequest.h"
 
 
