@@ -54,6 +54,16 @@
 +(NSString *)YXBgetUserIphoneNumber{
     return [[NSUserDefaults standardUserDefaults] objectForKey:@"phoneNumber"];
 }
++ (void)YXBSaveExpireDate:(NSDate *)expireDate
+{
+
+     [[NSUserDefaults standardUserDefaults] setValue:expireDate forKey:@"expireDate"];
+}
++ (NSDate *)YXBGetExpireDate
+{
+     return [[NSUserDefaults standardUserDefaults] objectForKey:@"expireDate"];
+
+}
 +(BOOL) YXBisBlankString:(NSString *)string
 {
     if (string == nil || string == NULL) {

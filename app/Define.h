@@ -9,6 +9,11 @@
 #ifndef app_Define_h
 #define app_Define_h
 /**
+ 获取屏幕的尺寸
+ */
+#define YXBDEVICE_height [UIScreen mainScreen].bounds.size.height
+#define YXBDEVICE_width [UIScreen mainScreen].bounds.size.width
+/**
  *  获取设备的系统版本号
  */
 #define iOS7 ([UIDevice currentDevice].systemVersion.floatValue >= 7.0)
@@ -37,6 +42,19 @@
 #define YXBDEVICE_width_6P ([UIScreen mainScreen].bounds.size.width == 621)
 
 
+/**
+ *  ios 7判断
+ */
+#ifndef PNCisIOS7Later
+#define PNCisIOS7Later  !([[[UIDevice currentDevice] systemVersion] compare:@"7.0"] == NSOrderedAscending)
+#endif
+
+/**
+ *  ios 8判断
+ */
+#ifndef PNCisIOS8Later
+#define PNCisIOS8Later  !([[[UIDevice currentDevice] systemVersion] compare:@"8.0"] == NSOrderedAscending)
+#endif
 /**
  *  设置字体Font的大小
  */

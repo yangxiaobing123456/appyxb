@@ -7,8 +7,10 @@
 //
 
 #import "YXBMessageViewController.h"
-
+#import "UITextView+PlaceHolder.h"
 @interface YXBMessageViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextView *myTextView;
 
 @end
 
@@ -17,9 +19,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"消息";
+    [self.myTextView addPlaceHolder:@"请输入密码"];
     // Do any additional setup after loading the view from its nib.
 }
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
 
+    [self.view endEditing:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

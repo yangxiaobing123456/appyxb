@@ -25,7 +25,8 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title=@"人脉";
+    self.title=@"服务项目";
+    
     self.myTable.rowHeight=UITableViewAutomaticDimension;
     self.myTable.estimatedRowHeight=100;
     // Do any additional setup after loading the view from its nib.

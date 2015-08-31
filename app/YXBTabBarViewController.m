@@ -37,17 +37,17 @@
     // 首页
     YXBContactsViewController *home = [[YXBContactsViewController alloc] init];
     
-    [self setUpOneChildViewController:home title:@"人脉" imageName:@"icon_rm" selImageName:@"icon_rm_1"];
+    [self setUpOneChildViewController:home title:@"服务项目" imageName:@"icon_rm" selImageName:@"icon_rm_1"];
     _contactsVC = home;
     
     // 资金
     YXBMoneyViewController *message = [[YXBMoneyViewController alloc] init];
-    [self setUpOneChildViewController:message title:@"资金" imageName:@"icon_zj" selImageName:@"icon_zj_1"];
+    [self setUpOneChildViewController:message title:@"技师" imageName:@"icon_zj" selImageName:@"icon_zj_1"];
     _moneyVC = message;
     
     // 发现
     YXBFindViewController *discover = [[YXBFindViewController alloc] init];
-    [self setUpOneChildViewController:discover title:@"发现" imageName:@"icon_fx" selImageName:@"icon_fx_1"];
+    [self setUpOneChildViewController:discover title:@"订单" imageName:@"icon_fx" selImageName:@"icon_fx_1"];
     
     
     // 我

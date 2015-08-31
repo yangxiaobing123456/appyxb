@@ -17,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title=@"资金";
+    self.myTextView.placeholder=@"请输入密码";
+    self.myTextView.placeholderColor=[UIColor redColor];
+    self.title=@"技师";
     [YXBUserDefaultsInfo YXBsetlayerCornerRadiusAndmasksToBounds:self.clickBtn radius:10];
     // Do any additional setup after loading the view from its nib.
 }

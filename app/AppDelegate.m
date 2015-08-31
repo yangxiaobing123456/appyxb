@@ -18,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    NSString *path=[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
+    
+    YXBLog(@"%@",path);
     /**
      *  去掉故事版框架结构
      */
@@ -34,8 +38,8 @@
     
     self.window.rootViewController=tabbarVC;
     
+    NSLog(@"%f",[UIScreen mainScreen].bounds.size.height);
     
-
     return YES;
 }
 

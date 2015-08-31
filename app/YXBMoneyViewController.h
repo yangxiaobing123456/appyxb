@@ -7,8 +7,9 @@
 //
 
 #import "YXBBaseViewController.h"
-
+#import "EMTextView.h"
 @interface YXBMoneyViewController : YXBBaseViewController
 @property (weak, nonatomic) IBOutlet UIButton *clickBtn;
+@property (weak, nonatomic) IBOutlet EMTextView *myTextView;
 
 @end

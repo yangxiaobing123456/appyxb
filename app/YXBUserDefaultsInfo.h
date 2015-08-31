@@ -147,6 +147,20 @@
  */
 + (NSString *)YXBtimeDifference:(int)time;
 /**
+ *  保存特定的到期时间
+ *
+ *  @param expireDate 到期时间
+ *
+ *  @return 到期时间
+ */
++ (void)YXBSaveExpireDate:(NSDate *)expireDate;
+/**
+ *  获取到期时间
+ *
+ *  @param expireDate 到期时间
+ */
++ (NSDate *)YXBGetExpireDate;
+/**
  *  获取Documents文件的路径
  *
  *  @return 返回文件路径

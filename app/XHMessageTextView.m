@@ -20,7 +20,7 @@
     if([placeHolder isEqualToString:_placeHolder]) {
         return;
     }
-    
+
     NSUInteger maxChars = [XHMessageTextView maxCharactersPerLine];
     if([placeHolder length] > maxChars) {
         placeHolder = [placeHolder substringToIndex:maxChars - 8];
@@ -118,10 +118,16 @@
     if (self) {
         // Initialization code
         [self setup];
+        //self.delegate=self;
     }
     return self;
 }
-
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    self.placeHolder=@"";
+    self.placeHolderTextColor=[UIColor clearColor];
+    return YES;
+}
 - (void)dealloc {
     _placeHolder = nil;
     _placeHolderTextColor = nil;

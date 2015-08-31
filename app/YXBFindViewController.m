@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title=@"发现";
+    self.title=@"订单";
     UIBarButtonItem *popPre = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(popToPre)];
     self.navigationItem.rightBarButtonItem = popPre;
     // Do any additional setup after loading the view from its nib.

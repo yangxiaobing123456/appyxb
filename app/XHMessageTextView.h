@@ -19,7 +19,7 @@ typedef NS_ENUM(NSUInteger, XHTextViewInputViewType) {
     XHTextViewShareMenuInputType,
 };
 
-@interface XHMessageTextView : UITextView
+@interface XHMessageTextView : UITextView<UITextViewDelegate>
 
 /**
  *  提示用户输入的标语
