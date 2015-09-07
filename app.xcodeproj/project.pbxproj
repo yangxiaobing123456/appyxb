@@ -9,6 +9,15 @@
 /* Begin PBXBuildFile section */
 		6925FF0D1B93EC0800E781E0 /* PCLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925FF0C1B93EC0800E781E0 /* PCLocationModel.m */; };
 		6925FF101B94078900E781E0 /* NSDate+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925FF0F1B94078900E781E0 /* NSDate+WB.m */; };
+		694CEE0B1B95A13C00DBF909 /* YXBfindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */; };
+		694CEE0C1B95A13C00DBF909 /* YXBfindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694CEE0A1B95A13C00DBF909 /* YXBfindTableViewCell.xib */; };
+		694CEE151B95B29100DBF909 /* NYSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE101B95B29100DBF909 /* NYSegment.m */; };
+		694CEE161B95B29100DBF909 /* NYSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE121B95B29100DBF909 /* NYSegmentedControl.m */; };
+		694CEE171B95B29100DBF909 /* NYSegmentIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */; };
+		699618571B9C3FFC00F30E6D /* YXBTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */; };
+		699618581B9C3FFC00F30E6D /* YXBTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */; };
+		6996185C1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6996185A1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m */; };
+		6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6996185B1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib */; };
 		69E8E3801B8D5F5C0092713A /* NSArray+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E8E2B21B8D5F5B0092713A /* NSArray+Block.m */; };
 		69E8E3811B8D5F5C0092713A /* NSArray+SafeAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E8E2B41B8D5F5B0092713A /* NSArray+SafeAccess.m */; };
 		69E8E3821B8D5F5C0092713A /* NSBundle+AppIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E8E2B71B8D5F5B0092713A /* NSBundle+AppIcon.m */; };
@@ -239,6 +248,21 @@
 		6925FF0C1B93EC0800E781E0 /* PCLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLocationModel.m; sourceTree = "<group>"; };
 		6925FF0E1B94078900E781E0 /* NSDate+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WB.h"; sourceTree = "<group>"; };
 		6925FF0F1B94078900E781E0 /* NSDate+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WB.m"; sourceTree = "<group>"; };
+		694CEE081B95A13C00DBF909 /* YXBfindTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBfindTableViewCell.h; sourceTree = "<group>"; };
+		694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBfindTableViewCell.m; sourceTree = "<group>"; };
+		694CEE0A1B95A13C00DBF909 /* YXBfindTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBfindTableViewCell.xib; sourceTree = "<group>"; };
+		694CEE0F1B95B29100DBF909 /* NYSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegment.h; sourceTree = "<group>"; };
+		694CEE101B95B29100DBF909 /* NYSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegment.m; sourceTree = "<group>"; };
+		694CEE111B95B29100DBF909 /* NYSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentedControl.h; sourceTree = "<group>"; };
+		694CEE121B95B29100DBF909 /* NYSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentedControl.m; sourceTree = "<group>"; };
+		694CEE131B95B29100DBF909 /* NYSegmentIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentIndicator.h; sourceTree = "<group>"; };
+		694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentIndicator.m; sourceTree = "<group>"; };
+		699618541B9C3FFC00F30E6D /* YXBTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBTimeViewController.h; sourceTree = "<group>"; };
+		699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBTimeViewController.m; sourceTree = "<group>"; };
+		699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBTimeViewController.xib; sourceTree = "<group>"; };
+		699618591B9C4AF500F30E6D /* YXBbTNCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBbTNCollectionViewCell.h; sourceTree = "<group>"; };
+		6996185A1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBbTNCollectionViewCell.m; sourceTree = "<group>"; };
+		6996185B1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBbTNCollectionViewCell.xib; sourceTree = "<group>"; };
 		69E8E2B11B8D5F5B0092713A /* NSArray+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Block.h"; sourceTree = "<group>"; };
 		69E8E2B21B8D5F5B0092713A /* NSArray+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Block.m"; sourceTree = "<group>"; };
 		69E8E2B31B8D5F5B0092713A /* NSArray+SafeAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SafeAccess.h"; sourceTree = "<group>"; };
@@ -734,6 +758,51 @@
 			name = YXBCategory;
 			sourceTree = "<group>";
 		};
+		694CEE071B95A0F900DBF909 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				694CEE081B95A13C00DBF909 /* YXBfindTableViewCell.h */,
+				694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */,
+				694CEE0A1B95A13C00DBF909 /* YXBfindTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		694CEE0D1B95B26900DBF909 /* UISegmentC(seg) */ = {
+			isa = PBXGroup;
+			children = (
+				694CEE0E1B95B29100DBF909 /* NYSegmentedControl */,
+			);
+			name = "UISegmentC(seg)";
+			sourceTree = "<group>";
+		};
+		694CEE0E1B95B29100DBF909 /* NYSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				694CEE0F1B95B29100DBF909 /* NYSegment.h */,
+				694CEE101B95B29100DBF909 /* NYSegment.m */,
+				694CEE111B95B29100DBF909 /* NYSegmentedControl.h */,
+				694CEE121B95B29100DBF909 /* NYSegmentedControl.m */,
+				694CEE131B95B29100DBF909 /* NYSegmentIndicator.h */,
+				694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */,
+			);
+			path = NYSegmentedControl;
+			sourceTree = "<group>";
+		};
+		69964A601B9D2AC8003265BF /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		69964A611B9D2AD7003265BF /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 		69E8E2AF1B8D5F5B0092713A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -1177,6 +1246,8 @@
 		B56BB3A51B7093C7004AEAB8 /* Lib（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				69964A601B9D2AC8003265BF /* New Group */,
+				694CEE0D1B95B26900DBF909 /* UISegmentC(seg) */,
 				6925FF111B94172B00E781E0 /* SMSButton（验证码） */,
 				B57B6D0A1B7322C700A2AE2F /* MWPhotoBrowser */,
 				B588E5301B71F32D0069C0AF /* RMPickerViewController */,
@@ -1548,6 +1619,7 @@
 		B5EC3D701B6F0E1100102584 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				69964A611B9D2AD7003265BF /* image */,
 				B5EC3D711B6F0E1100102584 /* Info.plist */,
 				B5EC3D721B6F0E1100102584 /* main.m */,
 			);
@@ -1633,6 +1705,7 @@
 		B5EC3DBE1B6F317500102584 /* Find(订单) */ = {
 			isa = PBXGroup;
 			children = (
+				694CEE071B95A0F900DBF909 /* Cell */,
 				B5EC3DC51B6F321000102584 /* YXBFindViewController.h */,
 				B5EC3DC61B6F321000102584 /* YXBFindViewController.m */,
 				B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */,
@@ -1649,6 +1722,12 @@
 				B5EC3DCA1B6F322000102584 /* YXBMeViewController.h */,
 				B5EC3DCB1B6F322000102584 /* YXBMeViewController.m */,
 				B5EC3DCC1B6F322000102584 /* YXBMeViewController.xib */,
+				699618541B9C3FFC00F30E6D /* YXBTimeViewController.h */,
+				699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */,
+				699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */,
+				699618591B9C4AF500F30E6D /* YXBbTNCollectionViewCell.h */,
+				6996185A1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m */,
+				6996185B1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib */,
 				B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */,
 				B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */,
 				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
@@ -1738,6 +1817,9 @@
 							com.apple.InAppPurchase = {
 								enabled = 0;
 							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
 						};
 					};
 					B5EC3D851B6F0E1200102584 = {
@@ -1773,12 +1855,15 @@
 				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
 				B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */,
 				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
+				699618581B9C3FFC00F30E6D /* YXBTimeViewController.xib in Resources */,
 				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
 				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
 				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
+				694CEE0C1B95A13C00DBF909 /* YXBfindTableViewCell.xib in Resources */,
 				B588E4591B71EC6A0069C0AF /* MJRefresh.bundle in Resources */,
 				B588E4461B71EC5F0069C0AF /* MBProgressHUD.bundle in Resources */,
 				B57B6D571B7322C700A2AE2F /* MWPhotoBrowser.bundle in Resources */,
+				6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */,
 				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
 				B5EDC66D1B72033000A6A966 /* YXBContactsTableViewCell.xib in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
@@ -1818,6 +1903,8 @@
 				B57B6CFD1B73205E00A2AE2F /* NSDate+Category.m in Sources */,
 				69E8E3B31B8D5F5C0092713A /* UIImage+Merge.m in Sources */,
 				69E8E3991B8D5F5C0092713A /* NSString+Encrypt.m in Sources */,
+				694CEE161B95B29100DBF909 /* NYSegmentedControl.m in Sources */,
+				694CEE171B95B29100DBF909 /* NYSegmentIndicator.m in Sources */,
 				B57B6D481B7322C700A2AE2F /* MWZoomingScrollView.m in Sources */,
 				69E8E3C01B8D5F5C0092713A /* UIScrollView+Pages.m in Sources */,
 				B56BB3E91B70AF07004AEAB8 /* YXBIsNetworking.m in Sources */,
@@ -1830,6 +1917,7 @@
 				B57B6D461B7322C700A2AE2F /* MWTapDetectingImageView.m in Sources */,
 				B56BB3D91B709407004AEAB8 /* UIButton+AFNetworking.m in Sources */,
 				B56BB3D81B709407004AEAB8 /* UIAlertView+AFNetworking.m in Sources */,
+				694CEE151B95B29100DBF909 /* NYSegment.m in Sources */,
 				B57B6D4A1B7322C700A2AE2F /* NSIndexPath+PSTCollectionViewAdditions.m in Sources */,
 				B57B6D4E1B7322C700A2AE2F /* PSTCollectionViewData.m in Sources */,
 				B588E4F91B71EDA50069C0AF /* UIButton+WebCache.m in Sources */,
@@ -1881,6 +1969,7 @@
 				69E8E38F1B8D5F5C0092713A /* NSObject+AssociatedObject.m in Sources */,
 				B588E4861B71ECCD0069C0AF /* NSObject+MJKeyValue.m in Sources */,
 				69E8E3B81B8D5F5C0092713A /* UIImageView+Addition.m in Sources */,
+				694CEE0B1B95A13C00DBF909 /* YXBfindTableViewCell.m in Sources */,
 				69E8E3BB1B8D5F5C0092713A /* UINavigationController+BATransitions.m in Sources */,
 				69E8E3B11B8D5F5C0092713A /* UIImage+FileName.m in Sources */,
 				B588E4FB1B71EDA50069C0AF /* UIImage+MultiFormat.m in Sources */,
@@ -1979,6 +2068,7 @@
 				B588E4851B71ECCD0069C0AF /* NSObject+MJCoding.m in Sources */,
 				B5ACC3391B70F6AF00383F92 /* YXBMoneyDetailViewController.m in Sources */,
 				B588E4F01B71EDA50069C0AF /* MKAnnotationView+WebCache.m in Sources */,
+				6996185C1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m in Sources */,
 				69E8E39A1B8D5F5C0092713A /* NSString+Hash.m in Sources */,
 				69E8E3C71B8D5F5C0092713A /* UIView+Debug.m in Sources */,
 				69E8E3B71B8D5F5C0092713A /* UIImage+RoundedCorner.m in Sources */,
@@ -1990,6 +2080,7 @@
 				69E8E3D61B8D5F5C0092713A /* WebView+Debug.m in Sources */,
 				69E8E39D1B8D5F5C0092713A /* NSString+UrlEncode.m in Sources */,
 				B57B6D501B7322C700A2AE2F /* PSTCollectionViewItemKey.m in Sources */,
+				699618571B9C3FFC00F30E6D /* YXBTimeViewController.m in Sources */,
 				69E8E3971B8D5F5C0092713A /* NSString+DictionaryValue.m in Sources */,
 				B588E47E1B71ECCD0069C0AF /* MJConst.m in Sources */,
 				B57B6D471B7322C700A2AE2F /* MWTapDetectingView.m in Sources */,
@@ -2112,6 +2203,7 @@
 					"$(PROJECT_DIR)/app/MWPhotoBrowser",
 				);
 				INFOPLIST_FILE = app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = app;
@@ -2132,6 +2224,7 @@
 					"$(PROJECT_DIR)/app/MWPhotoBrowser",
 				);
 				INFOPLIST_FILE = app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = app;

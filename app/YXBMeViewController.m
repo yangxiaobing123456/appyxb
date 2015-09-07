@@ -17,7 +17,7 @@
 #import "PCLocationModel.h"
 #import "MBProgressHUD+MJ.h"
 #import "UIButton+CountDown.h"
-
+#import "YXBTimeViewController.h"
 @interface YXBMeViewController ()
 {
 
@@ -42,9 +42,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    UIBarButtonItem *popPre = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(popToPre)];
+    self.navigationItem.rightBarButtonItem = popPre;
+    
+    self.leftLayoutConstraint.constant=YXBDEVICE_width/12;
     self.title=@"我";
     
-    
+    self.timeLb.layer.cornerRadius=10;
+    self.timeLb.clipsToBounds=YES;
+//
     //[self.pushBt setTitle:@"获取验证码" forState:UIControlStateNormal];
     
 
@@ -86,7 +92,14 @@
     
     // Do any additional setup after loading the view from its nib.
 }
+-(void)popToPre
+{
+    YXBTimeViewController *ycbTimeVC=[[YXBTimeViewController alloc]init];
+    
+    [self.navigationController pushViewController:ycbTimeVC animated:YES];
 
+
+}
 -(void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -285,7 +298,7 @@
     
     [UIView animateWithDuration:.5 animations:^{
         
-        self.leftLayoutConstraint.constant=0;
+        self.leftLayoutConstraint.constant=YXBDEVICE_width/12;
         [self.view layoutIfNeeded];
         
     }];
@@ -297,9 +310,10 @@
     
     [UIView animateWithDuration:.5 animations:^{
         
-        self.leftLayoutConstraint.constant=YXBDEVICE_width/3;
+        self.leftLayoutConstraint.constant=YXBDEVICE_width/3+YXBDEVICE_width/12;
         
         [self.view layoutIfNeeded];
+        
     }];
     
     
@@ -309,8 +323,10 @@
     
     [UIView animateWithDuration:.5 animations:^{
         
-        self.leftLayoutConstraint.constant=YXBDEVICE_width/3*2;
+        self.leftLayoutConstraint.constant=YXBDEVICE_width/3*2+YXBDEVICE_width/12;
+        
         [self.view layoutIfNeeded];
+        
     }];
     
     

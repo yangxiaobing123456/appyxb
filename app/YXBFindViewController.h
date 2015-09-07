@@ -8,6 +8,9 @@
 
 #import "YXBBaseViewController.h"
 
-@interface YXBFindViewController : YXBBaseViewController
+@interface YXBFindViewController : YXBBaseViewController<UISearchBarDelegate>
+
+
+
 
 @end

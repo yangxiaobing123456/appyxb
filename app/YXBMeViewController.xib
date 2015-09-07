@@ -42,9 +42,16 @@
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mhb-6U-2Mk">
                     <rect key="frame" x="279" y="358" width="42" height="21"/>
+                    <color key="backgroundColor" red="0.22445667159999999" green="1" blue="0.48306104039999997" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
                 </label>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELe-He-ghj">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
@@ -78,13 +85,14 @@
                             </connections>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri0-0Z-FUl">
-                            <rect key="frame" x="0.0" y="58" width="200" height="2"/>
+                            <rect key="frame" x="0.0" y="58" width="60" height="2"/>
                             <color key="backgroundColor" red="0.22445667159999999" green="1" blue="0.48306104039999997" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="2" id="4u7-uk-EbS"/>
+                                <constraint firstAttribute="width" constant="60" id="UOa-po-aCc"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvd-Yw-fkT">
@@ -119,9 +127,14 @@
                         <constraint firstItem="6dE-fp-YJb" firstAttribute="leading" secondItem="ELe-He-ghj" secondAttribute="leading" id="ptC-EE-YYX"/>
                         <constraint firstItem="saz-oA-esu" firstAttribute="top" secondItem="ELe-He-ghj" secondAttribute="top" id="uE7-09-bqB"/>
                     </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ooV-4y-Mvq"/>
+                        </mask>
+                    </variation>
                 </view>
             </subviews>
-            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+            <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstAttribute="centerX" secondItem="MdS-zC-o9H" secondAttribute="centerX" id="2hs-1S-Uyd"/>
                 <constraint firstAttribute="centerX" secondItem="Mhb-6U-2Mk" secondAttribute="centerX" id="5gm-rC-MR6"/>
@@ -133,7 +146,7 @@
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <nil key="simulatedTopBarMetrics"/>
-            <point key="canvasLocation" x="420" y="294"/>
+            <point key="canvasLocation" x="410" y="274"/>
         </view>
     </objects>
 </document>
