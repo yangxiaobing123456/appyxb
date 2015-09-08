@@ -50,6 +50,21 @@
     
     self.timeLb.layer.cornerRadius=10;
     self.timeLb.clipsToBounds=YES;
+//    
+//    UIButton *btn =[UIButton buttonWithType:UIButtonTypeCustom];
+//    
+//    btn.backgroundColor=[UIColor redColor];
+//    
+//    btn.frame=CGRectMake(0, 0, 20, 20);
+//    
+//    self.myTextfield.rightViewMode=UITextFieldViewModeAlways;
+//    self.myTextfield.rightView=btn;
+    
+    UIButton *btnError=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
+    [btnError addTarget:self action:@selector(tapOnError) forControlEvents:UIControlEventTouchUpInside];
+    [btnError setBackgroundImage:[UIImage imageNamed:@"040"] forState:UIControlStateNormal];
+    self.myTextfield.rightView=btnError;
+    self.myTextfield.rightViewMode=UITextFieldViewModeAlways;
 //
     //[self.pushBt setTitle:@"获取验证码" forState:UIControlStateNormal];
     

@@ -11,6 +11,7 @@
 #import "YXBAllModel.h"
 #import "YXBContactsTableViewCell.h"
 #import "UIImageView+WebCache.h"
+#import "NSDate+Category.h"
 typedef NS_ENUM(NSInteger, Test1) {
     
     //以下是枚举成员
@@ -48,6 +49,26 @@ typedef NS_ENUM(NSInteger, Test1) {
     [super viewDidLoad];
     self.title=@"服务项目";
     text=Test1A;
+    NSLog(@"%@",[NSDate getCalendar]);
+    UIButton *rightBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+    rightBtn.frame=CGRectMake(0, 0, 60, 40);
+    NSString *soundButtonTitle = @"语音";
+    rightBtn.titleLabel.font=[UIFont systemFontOfSize:14];
+    [rightBtn setTitleColor:[UIColor blackColor]forState:UIControlStateNormal];
+    [rightBtn setTitle:soundButtonTitle forState:UIControlStateNormal];
+    [rightBtn setTitle:soundButtonTitle forState:UIControlStateSelected];
+    [rightBtn setTitle:soundButtonTitle forState:UIControlStateHighlighted];
+    [rightBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, -25, 0, 25)];
+    
+    
+    UIImage *yuyinImage = [UIImage imageNamed:@"icon_map_locate"];
+    [rightBtn setImage:yuyinImage forState:UIControlStateNormal];
+    [rightBtn setImage:yuyinImage forState:UIControlStateSelected];
+    [rightBtn setImage:yuyinImage forState:UIControlStateHighlighted];
+    //top left bottom right
+    [rightBtn setImageEdgeInsets:UIEdgeInsetsMake(0, 25, 0, -25)];
+    //[rightBtn setTitleEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)]; //4个参数是上边界，左边界，下边界，右边界。
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:rightBtn];
     //self.myTable.rowHeight=UITableViewAutomaticDimension;
     //self.myTable.estimatedRowHeight=100;
     

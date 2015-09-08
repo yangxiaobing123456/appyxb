@@ -9,6 +9,8 @@
 #import "YXBMessageViewController.h"
 #import "UITextView+PlaceHolder.h"
 #import "NYSegmentedControl.h"
+#import "YXBdiscountCouponViewController.h"
+
 @interface YXBMessageViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextView *myTextView;
@@ -24,9 +26,11 @@
 //    self.navigationItem.titleView=segmentC;
     
     //self.title=@"消息";
+    
+    UIBarButtonItem *popPre = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(popToPre)];
+    self.navigationItem.rightBarButtonItem = popPre;
     [self.myTextView addPlaceHolder:@"请输入密码"];
     // Do any additional setup after loading the view from its nib.
-    
     
     NYSegmentedControl *foursquareSegmentedControl = [[NYSegmentedControl alloc] initWithItems:@[@"技师", @"服务"]];
     foursquareSegmentedControl.titleTextColor = [UIColor colorWithRed:0.38f green:0.68f blue:0.93f alpha:1.0f];
@@ -38,9 +42,18 @@
     foursquareSegmentedControl.segmentIndicatorBorderWidth = 0.0f;
     foursquareSegmentedControl.segmentIndicatorInset = 1.0f;
     foursquareSegmentedControl.segmentIndicatorBorderColor = self.view.backgroundColor;
-    [foursquareSegmentedControl sizeToFit];
+    foursquareSegmentedControl.frame=CGRectMake(20, 5, 13, 35);
+    //[foursquareSegmentedControl sizeToFit];
     foursquareSegmentedControl.cornerRadius = CGRectGetHeight(foursquareSegmentedControl.frame) / 2.0f;
     self.navigationItem.titleView=foursquareSegmentedControl;
+    
+    NSLog(@"%f%f",foursquareSegmentedControl.frame.size.width,foursquareSegmentedControl.frame.size.height);
+}
+-(void)popToPre
+{
+    YXBdiscountCouponViewController *discountCouponVC=[[YXBdiscountCouponViewController alloc]initWithNibName:@"YXBdiscountCouponViewController" bundle:nil];
+    [self.navigationController pushViewController:discountCouponVC animated:YES];
+
 }
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {

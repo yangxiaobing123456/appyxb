@@ -10,6 +10,7 @@
 #import "UIBarButtonItem+YXBCreate.h"
 #import "YXBMessageViewController.h"
 #import "YXBfindTableViewCell.h"
+#import <CoreLocation/CoreLocation.h>
 @interface YXBFindViewController ()
 @property (weak, nonatomic) IBOutlet UIView *myView;
 @property (weak, nonatomic) IBOutlet UITableView *myTable;
@@ -17,10 +18,17 @@
 @end
 
 @implementation YXBFindViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title=@"订单";
+    
+    CLLocation *current=[[CLLocation alloc] initWithLatitude:32.178722 longitude:119.508619];
+    //第二个坐标
+    CLLocation *before=[[CLLocation alloc] initWithLatitude:32.178722 longitude:119.508620];
+    // 计算距离
+    CLLocationDistance meters=[current distanceFromLocation:before];
+    NSLog(@"%@",@(meters));
+    //UITextField
     UIBarButtonItem *popPre = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(popToPre)];
     self.navigationItem.rightBarButtonItem = popPre;
     self.myView.hidden=YES;
@@ -28,6 +36,9 @@
     searchBar.placeholder=@"搜搜更强大";
     searchBar.delegate=self;
     self.navigationItem.titleView=searchBar;
+    
+    
+    //[self.navigationController.navigationItem.rightBarButtonItem initWithCustomView:rightBtn];
     // Do any additional setup after loading the view from its nib.
 }
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText
@@ -45,7 +56,6 @@
 
 
 }
-//- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section;
 {
 

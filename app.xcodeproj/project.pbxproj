@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		690A59FF1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 690A59FD1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.m */; };
+		690A5A001B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690A59FE1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib */; };
 		6925FF0D1B93EC0800E781E0 /* PCLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925FF0C1B93EC0800E781E0 /* PCLocationModel.m */; };
 		6925FF101B94078900E781E0 /* NSDate+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925FF0F1B94078900E781E0 /* NSDate+WB.m */; };
 		694CEE0B1B95A13C00DBF909 /* YXBfindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */; };
@@ -14,6 +16,10 @@
 		694CEE151B95B29100DBF909 /* NYSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE101B95B29100DBF909 /* NYSegment.m */; };
 		694CEE161B95B29100DBF909 /* NYSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE121B95B29100DBF909 /* NYSegmentedControl.m */; };
 		694CEE171B95B29100DBF909 /* NYSegmentIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */; };
+		699006351B9DA40400C439FA /* YXBdiscountCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */; };
+		699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */; };
+		6990063A1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */; };
+		6990063B1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699006391B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib */; };
 		699618571B9C3FFC00F30E6D /* YXBTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */; };
 		699618581B9C3FFC00F30E6D /* YXBTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */; };
 		6996185C1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6996185A1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m */; };
@@ -244,6 +250,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		690A59FC1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBSizeAndlayoutViewController.h; sourceTree = "<group>"; };
+		690A59FD1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBSizeAndlayoutViewController.m; sourceTree = "<group>"; };
+		690A59FE1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBSizeAndlayoutViewController.xib; sourceTree = "<group>"; };
 		6925FF0B1B93EC0800E781E0 /* PCLocationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PCLocationModel.h; sourceTree = "<group>"; };
 		6925FF0C1B93EC0800E781E0 /* PCLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLocationModel.m; sourceTree = "<group>"; };
 		6925FF0E1B94078900E781E0 /* NSDate+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WB.h"; sourceTree = "<group>"; };
@@ -257,6 +266,12 @@
 		694CEE121B95B29100DBF909 /* NYSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentedControl.m; sourceTree = "<group>"; };
 		694CEE131B95B29100DBF909 /* NYSegmentIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentIndicator.h; sourceTree = "<group>"; };
 		694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentIndicator.m; sourceTree = "<group>"; };
+		699006321B9DA40400C439FA /* YXBdiscountCouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBdiscountCouponViewController.h; sourceTree = "<group>"; };
+		699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBdiscountCouponViewController.m; sourceTree = "<group>"; };
+		699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBdiscountCouponViewController.xib; sourceTree = "<group>"; };
+		699006371B9DA74800C439FA /* YXBdiscountCouponTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBdiscountCouponTableViewCell.h; sourceTree = "<group>"; };
+		699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBdiscountCouponTableViewCell.m; sourceTree = "<group>"; };
+		699006391B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBdiscountCouponTableViewCell.xib; sourceTree = "<group>"; };
 		699618541B9C3FFC00F30E6D /* YXBTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBTimeViewController.h; sourceTree = "<group>"; };
 		699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBTimeViewController.m; sourceTree = "<group>"; };
 		699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBTimeViewController.xib; sourceTree = "<group>"; };
@@ -764,6 +779,9 @@
 				694CEE081B95A13C00DBF909 /* YXBfindTableViewCell.h */,
 				694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */,
 				694CEE0A1B95A13C00DBF909 /* YXBfindTableViewCell.xib */,
+				699006371B9DA74800C439FA /* YXBdiscountCouponTableViewCell.h */,
+				699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */,
+				699006391B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -1709,6 +1727,15 @@
 				B5EC3DC51B6F321000102584 /* YXBFindViewController.h */,
 				B5EC3DC61B6F321000102584 /* YXBFindViewController.m */,
 				B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */,
+				B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */,
+				B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */,
+				699006321B9DA40400C439FA /* YXBdiscountCouponViewController.h */,
+				699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */,
+				699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */,
+				690A59FC1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.h */,
+				690A59FD1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.m */,
+				690A59FE1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib */,
+				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
 				B56BB39A1B707262004AEAB8 /* YXBPersonDetailViewController.h */,
 				B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */,
 				B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */,
@@ -1728,9 +1755,6 @@
 				699618591B9C4AF500F30E6D /* YXBbTNCollectionViewCell.h */,
 				6996185A1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m */,
 				6996185B1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib */,
-				B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */,
-				B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */,
-				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
 			);
 			name = "me（我）";
 			sourceTree = "<group>";
@@ -1860,13 +1884,16 @@
 				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
 				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
 				694CEE0C1B95A13C00DBF909 /* YXBfindTableViewCell.xib in Resources */,
+				6990063B1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib in Resources */,
 				B588E4591B71EC6A0069C0AF /* MJRefresh.bundle in Resources */,
 				B588E4461B71EC5F0069C0AF /* MBProgressHUD.bundle in Resources */,
 				B57B6D571B7322C700A2AE2F /* MWPhotoBrowser.bundle in Resources */,
+				699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */,
 				6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */,
 				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
 				B5EDC66D1B72033000A6A966 /* YXBContactsTableViewCell.xib in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
+				690A5A001B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1925,6 +1952,7 @@
 				B588E45A1B71EC6A0069C0AF /* MJRefreshBaseView.m in Sources */,
 				69E8E3BA1B8D5F5C0092713A /* UILabel+SuggestSize.m in Sources */,
 				B5EC3DB31B6F1C8C00102584 /* YXBTabBarViewController.m in Sources */,
+				6990063A1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m in Sources */,
 				69E8E3831B8D5F5C0092713A /* NSData+Base64.m in Sources */,
 				B57B6CF61B731D2C00A2AE2F /* UIButton+YXBbtn.m in Sources */,
 				69E8E3BC1B8D5F5C0092713A /* UINavigationController+KeyboardFix.m in Sources */,
@@ -1975,6 +2003,7 @@
 				B588E4FB1B71EDA50069C0AF /* UIImage+MultiFormat.m in Sources */,
 				69E8E3BD1B8D5F5C0092713A /* UIResponder+Chain.m in Sources */,
 				6925FF101B94078900E781E0 /* NSDate+WB.m in Sources */,
+				690A59FF1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.m in Sources */,
 				B588E45F1B71EC6A0069C0AF /* UIScrollView+MJRefresh.m in Sources */,
 				B56BB3DB1B709407004AEAB8 /* UIProgressView+AFNetworking.m in Sources */,
 				B588E5331B71F32D0069C0AF /* RMPickerViewController.m in Sources */,
@@ -2029,6 +2058,7 @@
 				B57B6D4F1B7322C700A2AE2F /* PSTCollectionViewFlowLayout.m in Sources */,
 				B57B6D031B73206C00A2AE2F /* NSString+Valid.m in Sources */,
 				B588E4841B71ECCD0069C0AF /* MJTypeEncoding.m in Sources */,
+				699006351B9DA40400C439FA /* YXBdiscountCouponViewController.m in Sources */,
 				B588E4F41B71EDA50069C0AF /* SDWebImageDecoder.m in Sources */,
 				69E8E3A11B8D5F5C0092713A /* NSURL+Param.m in Sources */,
 				69E8E3CE1B8D5F5C0092713A /* UIViewController+RecursiveDescription.m in Sources */,

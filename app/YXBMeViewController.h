@@ -9,5 +9,6 @@
 #import "YXBBaseViewController.h"
 
 @interface YXBMeViewController : YXBBaseViewController
+@property (weak, nonatomic) IBOutlet UITextField *myTextfield;
 
 @end

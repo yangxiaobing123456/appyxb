@@ -36,7 +36,7 @@
 + (NSDate *) dateWithHoursBeforeNow: (NSInteger) dHours;
 + (NSDate *) dateWithMinutesFromNow: (NSInteger) dMinutes;
 + (NSDate *) dateWithMinutesBeforeNow: (NSInteger) dMinutes;
-
++(NSString *)getCalendar;
 // Comparing dates
 - (BOOL) isEqualToDateIgnoringTime: (NSDate *) aDate;
 - (BOOL) isToday;
