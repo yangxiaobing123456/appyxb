@@ -61,7 +61,7 @@
 //    self.myTextfield.rightView=btn;
     
     UIButton *btnError=[[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
-    [btnError addTarget:self action:@selector(tapOnError) forControlEvents:UIControlEventTouchUpInside];
+    [btnError addTarget:self action:@selector(push:) forControlEvents:UIControlEventTouchUpInside];
     [btnError setBackgroundImage:[UIImage imageNamed:@"040"] forState:UIControlStateNormal];
     self.myTextfield.rightView=btnError;
     self.myTextfield.rightViewMode=UITextFieldViewModeAlways;
@@ -107,6 +107,7 @@
     
     // Do any additional setup after loading the view from its nib.
 }
+
 -(void)popToPre
 {
     YXBTimeViewController *ycbTimeVC=[[YXBTimeViewController alloc]init];
@@ -148,7 +149,7 @@
     
 
     
-       UIButton *btn=(UIButton *)sender;
+      // UIButton *btn=(UIButton *)sender;
 //    [btn startGetMessage];
 //
    // [btn time];
@@ -168,8 +169,8 @@
     //[self startTime:60];
     
     
-//    YXBMessageViewController *messageVC=[[YXBMessageViewController alloc]init];
-//    [self.navigationController pushViewController:messageVC animated:YES];
+    YXBMessageViewController *messageVC=[[YXBMessageViewController alloc]init];
+    [self.navigationController pushViewController:messageVC animated:YES];
 }
 -(void)startTime:(NSInteger)time
 {

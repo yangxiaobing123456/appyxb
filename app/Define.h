@@ -94,7 +94,13 @@
 #else
 #define YXBLog(...)
 #endif
-
+/**
+ *  alertview弹框
+ *
+ *  @param msg   msg
+ *  @param title 按钮
+ *
+ */
 #define YXBAlertView(msg,title) [[[UIAlertView alloc]initWithTitle:@"温馨提示" message:msg delegate:nil cancelButtonTitle:title otherButtonTitles:nil, nil] show];
 
 #import "YXBCategory.h"
@@ -103,9 +109,6 @@
 #import "YXBUserDefaultsInfo.h"
 
 #import "YXBHttpRequest.h"
-
-
-
 
 
 /**

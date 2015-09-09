@@ -34,7 +34,7 @@
     UIBarButtonItem *item = [UIBarButtonItem appearance];
     // 设置不可用状态下的按钮颜色
     NSMutableDictionary *disableDictM = [NSMutableDictionary dictionary];
-    disableDictM[NSForegroundColorAttributeName] = [UIColor blackColor];
+    disableDictM[NSForegroundColorAttributeName] = [UIColor whiteColor];
     [item setTitleTextAttributes:disableDictM forState:UIControlStateDisabled];
     
     NSMutableDictionary *normalDictM = [NSMutableDictionary dictionary];
@@ -50,7 +50,7 @@
 {
     UINavigationBar *nav = [UINavigationBar appearanceWhenContainedIn:[YXBBaseNavigationViewController class], nil];
     NSMutableDictionary *dictM = [NSMutableDictionary dictionary];
-    dictM[NSForegroundColorAttributeName] = [UIColor blackColor];
+    dictM[NSForegroundColorAttributeName] = [UIColor whiteColor];
     [nav setTitleTextAttributes:dictM];
 
 

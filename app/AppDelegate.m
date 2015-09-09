@@ -21,7 +21,7 @@
     
     NSString *path=[NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
     
-    YXBLog(@"%@",path);
+    //YXBLog(@"%@",path);
     /**
      *  去掉故事版框架结构
      */

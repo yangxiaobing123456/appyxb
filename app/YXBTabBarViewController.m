@@ -27,7 +27,7 @@
     /**
      *  设置tabBar的背景颜色
      */
-    //self.tabBar.backgroundColor=[UIColor yellowColor];
+    //self.tabBar.backgroundColor=[UIColor blackColor];
     [self setUpAllChildViewController];
     
 }

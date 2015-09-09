@@ -12,6 +12,8 @@
 #import "YXBContactsTableViewCell.h"
 #import "UIImageView+WebCache.h"
 #import "NSDate+Category.h"
+#import "AMWaveTransition.h"
+#import "YXBContactsDetailViewController.h"
 typedef NS_ENUM(NSInteger, Test1) {
     
     //以下是枚举成员
@@ -181,5 +183,33 @@ typedef NS_ENUM(NSInteger, Test1) {
         [self.view layoutIfNeeded];
         
     }];
+}
+//- (void)viewDidAppear:(BOOL)animated
+//{
+//    [super viewDidAppear:animated];
+//    [self.navigationController setDelegate:self];
+//}
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    YXBContactsDetailViewController *vc=[[YXBContactsDetailViewController alloc]init];
+    
+    [self.navigationController pushViewController:vc animated:YES];
+
+
+}
+- (id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                  animationControllerForOperation:(UINavigationControllerOperation)operation
+                                               fromViewController:(UIViewController*)fromVC
+                                                 toViewController:(UIViewController*)toVC
+{
+    if (operation != UINavigationControllerOperationNone) {
+        return [AMWaveTransition transitionWithOperation:operation andTransitionType:AMWaveTransitionTypeBounce];
+    }
+    return nil;
+}
+
+- (NSArray*)visibleCells
+{
+    return [self.myTable visibleCells];
 }
 @end

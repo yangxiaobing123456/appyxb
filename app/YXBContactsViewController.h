@@ -8,7 +8,7 @@
 
 #import "YXBBaseViewController.h"
 
-@interface YXBContactsViewController : YXBBaseViewController<UITableViewDataSource,UITableViewDelegate>
+@interface YXBContactsViewController : YXBBaseViewController<UITableViewDataSource,UITableViewDelegate,UINavigationControllerDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *myTable;
 @property (nonatomic,strong) NSMutableArray *dataInfoArray;
 @property (weak, nonatomic) IBOutlet UILabel *nameLb;

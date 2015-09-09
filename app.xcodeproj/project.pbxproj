@@ -11,6 +11,10 @@
 		690A5A001B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690A59FE1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib */; };
 		6925FF0D1B93EC0800E781E0 /* PCLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925FF0C1B93EC0800E781E0 /* PCLocationModel.m */; };
 		6925FF101B94078900E781E0 /* NSDate+WB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6925FF0F1B94078900E781E0 /* NSDate+WB.m */; };
+		69288B661B9FCAB40078FBF6 /* AMWaveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 69288B631B9FCAB40078FBF6 /* AMWaveTransition.m */; };
+		69288B671B9FCAB40078FBF6 /* AMWaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69288B651B9FCAB40078FBF6 /* AMWaveViewController.m */; };
+		69288B6B1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69288B691B9FCB8F0078FBF6 /* YXBContactsDetailViewController.m */; };
+		69288B6C1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69288B6A1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib */; };
 		694CEE0B1B95A13C00DBF909 /* YXBfindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */; };
 		694CEE0C1B95A13C00DBF909 /* YXBfindTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694CEE0A1B95A13C00DBF909 /* YXBfindTableViewCell.xib */; };
 		694CEE151B95B29100DBF909 /* NYSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE101B95B29100DBF909 /* NYSegment.m */; };
@@ -257,6 +261,13 @@
 		6925FF0C1B93EC0800E781E0 /* PCLocationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PCLocationModel.m; sourceTree = "<group>"; };
 		6925FF0E1B94078900E781E0 /* NSDate+WB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+WB.h"; sourceTree = "<group>"; };
 		6925FF0F1B94078900E781E0 /* NSDate+WB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WB.m"; sourceTree = "<group>"; };
+		69288B621B9FCAB40078FBF6 /* AMWaveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWaveTransition.h; sourceTree = "<group>"; };
+		69288B631B9FCAB40078FBF6 /* AMWaveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWaveTransition.m; sourceTree = "<group>"; };
+		69288B641B9FCAB40078FBF6 /* AMWaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMWaveViewController.h; sourceTree = "<group>"; };
+		69288B651B9FCAB40078FBF6 /* AMWaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMWaveViewController.m; sourceTree = "<group>"; };
+		69288B681B9FCB8F0078FBF6 /* YXBContactsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBContactsDetailViewController.h; sourceTree = "<group>"; };
+		69288B691B9FCB8F0078FBF6 /* YXBContactsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBContactsDetailViewController.m; sourceTree = "<group>"; };
+		69288B6A1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBContactsDetailViewController.xib; sourceTree = "<group>"; };
 		694CEE081B95A13C00DBF909 /* YXBfindTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBfindTableViewCell.h; sourceTree = "<group>"; };
 		694CEE091B95A13C00DBF909 /* YXBfindTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBfindTableViewCell.m; sourceTree = "<group>"; };
 		694CEE0A1B95A13C00DBF909 /* YXBfindTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBfindTableViewCell.xib; sourceTree = "<group>"; };
@@ -807,11 +818,15 @@
 			path = NYSegmentedControl;
 			sourceTree = "<group>";
 		};
-		69964A601B9D2AC8003265BF /* New Group */ = {
+		69964A601B9D2AC8003265BF /* AM(表的滑动效果) */ = {
 			isa = PBXGroup;
 			children = (
+				69288B621B9FCAB40078FBF6 /* AMWaveTransition.h */,
+				69288B631B9FCAB40078FBF6 /* AMWaveTransition.m */,
+				69288B641B9FCAB40078FBF6 /* AMWaveViewController.h */,
+				69288B651B9FCAB40078FBF6 /* AMWaveViewController.m */,
 			);
-			name = "New Group";
+			name = "AM(表的滑动效果)";
 			sourceTree = "<group>";
 		};
 		69964A611B9D2AD7003265BF /* image */ = {
@@ -1264,7 +1279,7 @@
 		B56BB3A51B7093C7004AEAB8 /* Lib（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
-				69964A601B9D2AC8003265BF /* New Group */,
+				69964A601B9D2AC8003265BF /* AM(表的滑动效果) */,
 				694CEE0D1B95B26900DBF909 /* UISegmentC(seg) */,
 				6925FF111B94172B00E781E0 /* SMSButton（验证码） */,
 				B57B6D0A1B7322C700A2AE2F /* MWPhotoBrowser */,
@@ -1765,6 +1780,9 @@
 				B5EC3DA41B6F111500102584 /* YXBContactsViewController.h */,
 				B5EC3DA51B6F111500102584 /* YXBContactsViewController.m */,
 				B5EC3DA61B6F111500102584 /* YXBContactsViewController.xib */,
+				69288B681B9FCB8F0078FBF6 /* YXBContactsDetailViewController.h */,
+				69288B691B9FCB8F0078FBF6 /* YXBContactsDetailViewController.m */,
+				69288B6A1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -1892,6 +1910,7 @@
 				6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */,
 				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
 				B5EDC66D1B72033000A6A966 /* YXBContactsTableViewCell.xib in Resources */,
+				69288B6C1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
 				690A5A001B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib in Resources */,
 			);
@@ -1941,6 +1960,7 @@
 				B56BB3DC1B709407004AEAB8 /* UIRefreshControl+AFNetworking.m in Sources */,
 				B5EDC66C1B72033000A6A966 /* YXBContactsTableViewCell.m in Sources */,
 				69E8E3AC1B8D5F5C0092713A /* UIDevice+Hardware.m in Sources */,
+				69288B6B1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.m in Sources */,
 				B57B6D461B7322C700A2AE2F /* MWTapDetectingImageView.m in Sources */,
 				B56BB3D91B709407004AEAB8 /* UIButton+AFNetworking.m in Sources */,
 				B56BB3D81B709407004AEAB8 /* UIAlertView+AFNetworking.m in Sources */,
@@ -2013,6 +2033,7 @@
 				B56BB3BB1B709401004AEAB8 /* AFHTTPRequestOperationManager.m in Sources */,
 				B57B6D561B7322C700A2AE2F /* PSTGridLayoutSection.m in Sources */,
 				B5EC3DC31B6F31FD00102584 /* YXBMoneyViewController.m in Sources */,
+				69288B661B9FCAB40078FBF6 /* AMWaveTransition.m in Sources */,
 				B588E4811B71ECCD0069C0AF /* MJMember.m in Sources */,
 				B56BB3BE1B709401004AEAB8 /* AFSecurityPolicy.m in Sources */,
 				69E8E39C1B8D5F5C0092713A /* NSString+Trims.m in Sources */,
@@ -2087,6 +2108,7 @@
 				B56BB3D61B709407004AEAB8 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				69E8E3A41B8D5F5C0092713A /* UIButton+Block.m in Sources */,
 				B588E4FC1B71EDA50069C0AF /* UIImage+WebP.m in Sources */,
+				69288B671B9FCAB40078FBF6 /* AMWaveViewController.m in Sources */,
 				B57B6D021B73206C00A2AE2F /* NSDateFormatter+Category.m in Sources */,
 				B56BB3BC1B709401004AEAB8 /* AFHTTPSessionManager.m in Sources */,
 				B588E4801B71ECCD0069C0AF /* MJIvar.m in Sources */,
