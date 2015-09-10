@@ -7,6 +7,9 @@
 //
 
 #import "YXBContactsDetailViewController.h"
+#import "Define.h"
+#import "YXBTimeViewController.h"
+#import "YXBdiscountCouponViewController.h"
 
 @interface YXBContactsDetailViewController ()
 
@@ -16,22 +19,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+//    YXBTimeViewController *yxbtimeVC=[[YXBTimeViewController alloc]init];
+//    YXBdiscountCouponViewController *yxbdisVC=[[YXBdiscountCouponViewController alloc]init];
+    
+    YXBCustomBtn *btn=[[YXBCustomBtn alloc]init];
+    btn.frame=CGRectMake(150, 200, 40, 30);
+    btn.contentText=@"南京";
+    [btn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:btn];
+    
+}
+-(void)btnClick:(YXBCustomBtn *)sender
+{
+
+    YXBLog(@"按钮点击了");
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

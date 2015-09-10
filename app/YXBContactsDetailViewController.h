@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface YXBContactsDetailViewController : UIViewController
+#import "YXBCustomBtn.h"
+@interface YXBContactsDetailViewController : UIViewController<UIScrollViewDelegate>
 
 @end

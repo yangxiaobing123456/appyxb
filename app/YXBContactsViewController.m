@@ -14,6 +14,7 @@
 #import "NSDate+Category.h"
 #import "AMWaveTransition.h"
 #import "YXBContactsDetailViewController.h"
+#import "IWNewFeatureController.h"
 typedef NS_ENUM(NSInteger, Test1) {
     
     //以下是枚举成员

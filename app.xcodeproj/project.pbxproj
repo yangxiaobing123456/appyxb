@@ -117,6 +117,20 @@
 		69E8E3D61B8D5F5C0092713A /* WebView+Debug.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E8E37C1B8D5F5C0092713A /* WebView+Debug.m */; };
 		69E8E3D71B8D5F5C0092713A /* UIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E8E37F1B8D5F5C0092713A /* UIWindow+Hierarchy.m */; };
 		69E8E3D91B8D63D60092713A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E8E3D81B8D63D60092713A /* libz.dylib */; };
+		69F67D2D1BA1259800EF5664 /* IWNewFeatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F67D201BA1259800EF5664 /* IWNewFeatureController.m */; };
+		69F67D2E1BA1259800EF5664 /* IWNewFeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F67D231BA1259800EF5664 /* IWNewFeatureCell.m */; };
+		69F67D2F1BA1259800EF5664 /* welcome-1-1-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D251BA1259800EF5664 /* welcome-1-1-568h.png */; };
+		69F67D301BA1259800EF5664 /* welcome-1-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D261BA1259800EF5664 /* welcome-1-1.png */; };
+		69F67D311BA1259800EF5664 /* welcome-1-2-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D271BA1259800EF5664 /* welcome-1-2-568h.png */; };
+		69F67D321BA1259800EF5664 /* welcome-1-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D281BA1259800EF5664 /* welcome-1-2.png */; };
+		69F67D331BA1259800EF5664 /* welcome-1-3-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D291BA1259800EF5664 /* welcome-1-3-568h.png */; };
+		69F67D341BA1259800EF5664 /* welcome-1-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D2A1BA1259800EF5664 /* welcome-1-3.png */; };
+		69F67D351BA1259800EF5664 /* welcome-1-4-568h.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D2B1BA1259800EF5664 /* welcome-1-4-568h.png */; };
+		69F67D361BA1259800EF5664 /* welcome-1-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D2C1BA1259800EF5664 /* welcome-1-4.png */; };
+		69F67D3A1BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F67D381BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.m */; };
+		69F67D3B1BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69F67D391BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.xib */; };
+		69F67E021BA177E900EF5664 /* YXBCustomBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F67E011BA177E900EF5664 /* YXBCustomBtn.m */; };
+		69F67E061BA1916000EF5664 /* YXBCustomBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F67E051BA1916000EF5664 /* YXBCustomBarButtonItem.m */; };
 		B56BB39D1B707262004AEAB8 /* YXBPersonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */; };
 		B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */; };
 		B56BB3BA1B709401004AEAB8 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B56BB3A81B709401004AEAB8 /* AFHTTPRequestOperation.m */; };
@@ -466,6 +480,25 @@
 		69E8E37E1B8D5F5C0092713A /* UIWindow+Hierarchy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Hierarchy.h"; sourceTree = "<group>"; };
 		69E8E37F1B8D5F5C0092713A /* UIWindow+Hierarchy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Hierarchy.m"; sourceTree = "<group>"; };
 		69E8E3D81B8D63D60092713A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		69F67D1F1BA1259800EF5664 /* IWNewFeatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWNewFeatureController.h; sourceTree = "<group>"; };
+		69F67D201BA1259800EF5664 /* IWNewFeatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWNewFeatureController.m; sourceTree = "<group>"; };
+		69F67D221BA1259800EF5664 /* IWNewFeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IWNewFeatureCell.h; sourceTree = "<group>"; };
+		69F67D231BA1259800EF5664 /* IWNewFeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IWNewFeatureCell.m; sourceTree = "<group>"; };
+		69F67D251BA1259800EF5664 /* welcome-1-1-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-1-568h.png"; sourceTree = "<group>"; };
+		69F67D261BA1259800EF5664 /* welcome-1-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-1.png"; sourceTree = "<group>"; };
+		69F67D271BA1259800EF5664 /* welcome-1-2-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-2-568h.png"; sourceTree = "<group>"; };
+		69F67D281BA1259800EF5664 /* welcome-1-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-2.png"; sourceTree = "<group>"; };
+		69F67D291BA1259800EF5664 /* welcome-1-3-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-3-568h.png"; sourceTree = "<group>"; };
+		69F67D2A1BA1259800EF5664 /* welcome-1-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-3.png"; sourceTree = "<group>"; };
+		69F67D2B1BA1259800EF5664 /* welcome-1-4-568h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-4-568h.png"; sourceTree = "<group>"; };
+		69F67D2C1BA1259800EF5664 /* welcome-1-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "welcome-1-4.png"; sourceTree = "<group>"; };
+		69F67D371BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		69F67D381BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		69F67D391BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBNewFeatureCollectionViewCell.xib; sourceTree = "<group>"; };
+		69F67E001BA177E900EF5664 /* YXBCustomBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBCustomBtn.h; sourceTree = "<group>"; };
+		69F67E011BA177E900EF5664 /* YXBCustomBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBCustomBtn.m; sourceTree = "<group>"; };
+		69F67E041BA1916000EF5664 /* YXBCustomBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBCustomBarButtonItem.h; sourceTree = "<group>"; };
+		69F67E051BA1916000EF5664 /* YXBCustomBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBCustomBarButtonItem.m; sourceTree = "<group>"; };
 		B56BB39A1B707262004AEAB8 /* YXBPersonDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBPersonDetailViewController.h; sourceTree = "<group>"; };
 		B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBPersonDetailViewController.m; sourceTree = "<group>"; };
 		B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBPersonDetailViewController.xib; sourceTree = "<group>"; };
@@ -1012,6 +1045,7 @@
 		69E8E3001B8D5F5B0092713A /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				69F67E031BA1912600EF5664 /* UIBarButtonItem */,
 				69E8E3011B8D5F5B0092713A /* MKMapView */,
 				69E8E3041B8D5F5B0092713A /* UIBezierPath */,
 				69E8E3071B8D5F5B0092713A /* UIButton */,
@@ -1062,6 +1096,8 @@
 				69E8E30B1B8D5F5B0092713A /* UIButton+CountDown.m */,
 				69E8E30C1B8D5F5B0092713A /* UIButton+Indicator.h */,
 				69E8E30D1B8D5F5B0092713A /* UIButton+Indicator.m */,
+				69F67E001BA177E900EF5664 /* YXBCustomBtn.h */,
+				69F67E011BA177E900EF5664 /* YXBCustomBtn.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -1273,6 +1309,62 @@
 				69E8E37E1B8D5F5C0092713A /* UIWindow+Hierarchy.h */,
 				69E8E37F1B8D5F5C0092713A /* UIWindow+Hierarchy.m */,
 			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
+		69F67D1D1BA1259800EF5664 /* NewFeature(新特性) */ = {
+			isa = PBXGroup;
+			children = (
+				69F67D1E1BA1259800EF5664 /* Controller */,
+				69F67D211BA1259800EF5664 /* View */,
+				69F67D241BA1259800EF5664 /* welcomeImages */,
+			);
+			path = "NewFeature(新特性)";
+			sourceTree = "<group>";
+		};
+		69F67D1E1BA1259800EF5664 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				69F67D1F1BA1259800EF5664 /* IWNewFeatureController.h */,
+				69F67D201BA1259800EF5664 /* IWNewFeatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		69F67D211BA1259800EF5664 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69F67D221BA1259800EF5664 /* IWNewFeatureCell.h */,
+				69F67D231BA1259800EF5664 /* IWNewFeatureCell.m */,
+				69F67D371BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.h */,
+				69F67D381BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.m */,
+				69F67D391BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69F67D241BA1259800EF5664 /* welcomeImages */ = {
+			isa = PBXGroup;
+			children = (
+				69F67D251BA1259800EF5664 /* welcome-1-1-568h.png */,
+				69F67D261BA1259800EF5664 /* welcome-1-1.png */,
+				69F67D271BA1259800EF5664 /* welcome-1-2-568h.png */,
+				69F67D281BA1259800EF5664 /* welcome-1-2.png */,
+				69F67D291BA1259800EF5664 /* welcome-1-3-568h.png */,
+				69F67D2A1BA1259800EF5664 /* welcome-1-3.png */,
+				69F67D2B1BA1259800EF5664 /* welcome-1-4-568h.png */,
+				69F67D2C1BA1259800EF5664 /* welcome-1-4.png */,
+			);
+			path = welcomeImages;
+			sourceTree = "<group>";
+		};
+		69F67E031BA1912600EF5664 /* UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				69F67E041BA1916000EF5664 /* YXBCustomBarButtonItem.h */,
+				69F67E051BA1916000EF5664 /* YXBCustomBarButtonItem.m */,
+			);
+			name = UIBarButtonItem;
 			path = UIWindow;
 			sourceTree = "<group>";
 		};
@@ -1633,6 +1725,7 @@
 		B5EC3D6F1B6F0E1100102584 /* app */ = {
 			isa = PBXGroup;
 			children = (
+				69F67D1D1BA1259800EF5664 /* NewFeature(新特性) */,
 				6925FF0A1B93EBE000E781E0 /* Location(定位) */,
 				B56BB3DE1B70996A004AEAB8 /* Tool（工具类） */,
 				B5EC3DA91B6F162000102584 /* Category（自定义的第三方类别） */,
@@ -1744,13 +1837,13 @@
 				B5EC3DC71B6F321000102584 /* YXBFindViewController.xib */,
 				B5EC3DCF1B6F38B100102584 /* YXBMessageViewController.h */,
 				B5EC3DD01B6F38B100102584 /* YXBMessageViewController.m */,
+				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
 				699006321B9DA40400C439FA /* YXBdiscountCouponViewController.h */,
 				699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */,
 				699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */,
 				690A59FC1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.h */,
 				690A59FD1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.m */,
 				690A59FE1B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib */,
-				B5EC3DD11B6F38B100102584 /* YXBMessageViewController.xib */,
 				B56BB39A1B707262004AEAB8 /* YXBPersonDetailViewController.h */,
 				B56BB39B1B707262004AEAB8 /* YXBPersonDetailViewController.m */,
 				B56BB39C1B707262004AEAB8 /* YXBPersonDetailViewController.xib */,
@@ -1897,20 +1990,29 @@
 				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
 				B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */,
 				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
+				69F67D361BA1259800EF5664 /* welcome-1-4.png in Resources */,
 				699618581B9C3FFC00F30E6D /* YXBTimeViewController.xib in Resources */,
 				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
 				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
+				69F67D351BA1259800EF5664 /* welcome-1-4-568h.png in Resources */,
 				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
 				694CEE0C1B95A13C00DBF909 /* YXBfindTableViewCell.xib in Resources */,
 				6990063B1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib in Resources */,
+				69F67D331BA1259800EF5664 /* welcome-1-3-568h.png in Resources */,
+				69F67D3B1BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.xib in Resources */,
 				B588E4591B71EC6A0069C0AF /* MJRefresh.bundle in Resources */,
+				69F67D311BA1259800EF5664 /* welcome-1-2-568h.png in Resources */,
 				B588E4461B71EC5F0069C0AF /* MBProgressHUD.bundle in Resources */,
 				B57B6D571B7322C700A2AE2F /* MWPhotoBrowser.bundle in Resources */,
 				699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */,
 				6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */,
 				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
+				69F67D2F1BA1259800EF5664 /* welcome-1-1-568h.png in Resources */,
+				69F67D341BA1259800EF5664 /* welcome-1-3.png in Resources */,
 				B5EDC66D1B72033000A6A966 /* YXBContactsTableViewCell.xib in Resources */,
 				69288B6C1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib in Resources */,
+				69F67D321BA1259800EF5664 /* welcome-1-2.png in Resources */,
+				69F67D301BA1259800EF5664 /* welcome-1-1.png in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
 				690A5A001B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib in Resources */,
 			);
@@ -1941,6 +2043,7 @@
 				69E8E3841B8D5F5C0092713A /* NSData+Encrypt.m in Sources */,
 				B588E4F61B71EDA50069C0AF /* SDWebImageDownloaderOperation.m in Sources */,
 				69E8E3BF1B8D5F5C0092713A /* UIScrollView+Addition.m in Sources */,
+				69F67E061BA1916000EF5664 /* YXBCustomBarButtonItem.m in Sources */,
 				B588E4F11B71EDA50069C0AF /* NSData+GIF.m in Sources */,
 				69E8E3951B8D5F5C0092713A /* NSSet+Block.m in Sources */,
 				B5EC3DCD1B6F322000102584 /* YXBMeViewController.m in Sources */,
@@ -1974,6 +2077,7 @@
 				B5EC3DB31B6F1C8C00102584 /* YXBTabBarViewController.m in Sources */,
 				6990063A1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m in Sources */,
 				69E8E3831B8D5F5C0092713A /* NSData+Base64.m in Sources */,
+				69F67D3A1BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.m in Sources */,
 				B57B6CF61B731D2C00A2AE2F /* UIButton+YXBbtn.m in Sources */,
 				69E8E3BC1B8D5F5C0092713A /* UINavigationController+KeyboardFix.m in Sources */,
 				69E8E38A1B8D5F5C0092713A /* NSDictionary+SafeAccess.m in Sources */,
@@ -1984,6 +2088,7 @@
 				69E8E3C31B8D5F5C0092713A /* UITextField+Blocks.m in Sources */,
 				69E8E3D71B8D5F5C0092713A /* UIWindow+Hierarchy.m in Sources */,
 				69E8E39B1B8D5F5C0092713A /* NSString+Score.m in Sources */,
+				69F67E021BA177E900EF5664 /* YXBCustomBtn.m in Sources */,
 				69E8E3AD1B8D5F5C0092713A /* UIImage+Alpha.m in Sources */,
 				69E8E3B41B8D5F5C0092713A /* UIImage+Orientation.m in Sources */,
 				B5EC3DAC1B6F16B300102584 /* UIImage+YXBResizableImage.m in Sources */,
@@ -2080,6 +2185,7 @@
 				B57B6D031B73206C00A2AE2F /* NSString+Valid.m in Sources */,
 				B588E4841B71ECCD0069C0AF /* MJTypeEncoding.m in Sources */,
 				699006351B9DA40400C439FA /* YXBdiscountCouponViewController.m in Sources */,
+				69F67D2E1BA1259800EF5664 /* IWNewFeatureCell.m in Sources */,
 				B588E4F41B71EDA50069C0AF /* SDWebImageDecoder.m in Sources */,
 				69E8E3A11B8D5F5C0092713A /* NSURL+Param.m in Sources */,
 				69E8E3CE1B8D5F5C0092713A /* UIViewController+RecursiveDescription.m in Sources */,
@@ -2087,6 +2193,7 @@
 				B5EC3D9D1B6F105400102584 /* YXBBaseViewController.m in Sources */,
 				B57B6D541B7322C700A2AE2F /* PSTGridLayoutItem.m in Sources */,
 				69E8E3981B8D5F5C0092713A /* NSString+Emoji.m in Sources */,
+				69F67D2D1BA1259800EF5664 /* IWNewFeatureController.m in Sources */,
 				69E8E38B1B8D5F5C0092713A /* NSException+Trace.m in Sources */,
 				B588E45C1B71EC6A0069C0AF /* MJRefreshFooterView.m in Sources */,
 				69E8E3A51B8D5F5C0092713A /* UIButton+CountDown.m in Sources */,

@@ -17,6 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"%s",__func__);
    // [self.myTable reloadData];
     // Do any additional setup after loading the view from its nib.
 }
