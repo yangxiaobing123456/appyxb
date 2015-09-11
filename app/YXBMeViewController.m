@@ -45,7 +45,6 @@
     UIBarButtonItem *popPre = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(popToPre)];
     self.navigationItem.rightBarButtonItem = popPre;
     
-    self.leftLayoutConstraint.constant=YXBDEVICE_width/12;
     self.title=@"我";
     
     self.timeLb.layer.cornerRadius=10;
@@ -314,8 +313,14 @@
     
     [UIView animateWithDuration:.5 animations:^{
         
-        self.leftLayoutConstraint.constant=YXBDEVICE_width/12;
+        self.leftLayoutConstraint.constant=0;
+//        
+//        [self.didBtn setBackgroundColor:[UIColor whiteColor]];
+//        [self.cancelBtn setBackgroundColor:[UIColor whiteColor]];
+        
         [self.view layoutIfNeeded];
+        
+//        [self.goingBtn setBackgroundColor:[UIColor redColor]];
         
     }];
     
@@ -326,7 +331,14 @@
     
     [UIView animateWithDuration:.5 animations:^{
         
-        self.leftLayoutConstraint.constant=YXBDEVICE_width/3+YXBDEVICE_width/12;
+        
+//        [self.didBtn setBackgroundColor:[UIColor redColor]];
+//        
+//        [self.goingBtn setBackgroundColor:[UIColor whiteColor]];
+//        [self.cancelBtn setBackgroundColor:[UIColor whiteColor]];
+        
+        
+        self.leftLayoutConstraint.constant=YXBDEVICE_width/3;
         
         [self.view layoutIfNeeded];
         
@@ -339,7 +351,10 @@
     
     [UIView animateWithDuration:.5 animations:^{
         
-        self.leftLayoutConstraint.constant=YXBDEVICE_width/3*2+YXBDEVICE_width/12;
+//        [self.didBtn setBackgroundColor:[UIColor whiteColor]];
+//        [self.goingBtn setBackgroundColor:[UIColor whiteColor]];
+//        [self.cancelBtn setBackgroundColor:[UIColor redColor]];
+        self.leftLayoutConstraint.constant=YXBDEVICE_width/3*2;
         
         [self.view layoutIfNeeded];
         

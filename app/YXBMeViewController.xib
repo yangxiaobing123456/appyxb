@@ -58,9 +58,24 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ELe-He-ghj">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
                     <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri0-0Z-FUl">
+                            <rect key="frame" x="0.0" y="2" width="200" height="58"/>
+                            <color key="backgroundColor" red="0.22445667159999999" green="1" blue="0.48306104039999997" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="58" id="4u7-uk-EbS"/>
+                                <constraint firstAttribute="width" constant="60" id="UOa-po-aCc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <variation key="default">
+                                <mask key="constraints">
+                                    <exclude reference="UOa-po-aCc"/>
+                                </mask>
+                            </variation>
+                        </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6dE-fp-YJb">
                             <rect key="frame" x="0.0" y="0.0" width="200" height="58"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="58" id="pCp-oF-imv"/>
                             </constraints>
@@ -74,7 +89,7 @@
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="saz-oA-esu">
                             <rect key="frame" x="400" y="0.0" width="200" height="58"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="58" id="wzk-We-jDQ"/>
                             </constraints>
@@ -86,20 +101,9 @@
                                 <action selector="cancelBtn:" destination="-1" eventType="touchUpInside" id="3Lw-Bk-NJj"/>
                             </connections>
                         </button>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ri0-0Z-FUl">
-                            <rect key="frame" x="0.0" y="58" width="60" height="2"/>
-                            <color key="backgroundColor" red="0.22445667159999999" green="1" blue="0.48306104039999997" alpha="1" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstAttribute="height" constant="2" id="4u7-uk-EbS"/>
-                                <constraint firstAttribute="width" constant="60" id="UOa-po-aCc"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvd-Yw-fkT">
                             <rect key="frame" x="200" y="0.0" width="200" height="58"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="58" id="eTc-lM-apX"/>
                             </constraints>
@@ -126,6 +130,7 @@
                         <constraint firstItem="saz-oA-esu" firstAttribute="leading" secondItem="gvd-Yw-fkT" secondAttribute="trailing" id="lfT-2l-Z8O"/>
                         <constraint firstItem="gvd-Yw-fkT" firstAttribute="leading" secondItem="6dE-fp-YJb" secondAttribute="trailing" id="noU-km-2EJ"/>
                         <constraint firstItem="Ri0-0Z-FUl" firstAttribute="width" secondItem="6dE-fp-YJb" secondAttribute="width" id="ooV-4y-Mvq"/>
+                        <constraint firstItem="6dE-fp-YJb" firstAttribute="width" secondItem="Ri0-0Z-FUl" secondAttribute="width" id="prc-dj-3bP"/>
                         <constraint firstItem="6dE-fp-YJb" firstAttribute="leading" secondItem="ELe-He-ghj" secondAttribute="leading" id="ptC-EE-YYX"/>
                         <constraint firstItem="saz-oA-esu" firstAttribute="top" secondItem="ELe-He-ghj" secondAttribute="top" id="uE7-09-bqB"/>
                     </constraints>
