@@ -10,6 +10,8 @@
 #import "Define.h"
 #import "YXBProgectDetailViewController.h"
 #import "YXBProdectDetaolViewController.h"
+#import "YXBProductTableViewController.h"
+#import "YXBProductTabViewController.h"
 @interface YXBProgectViewController ()
 
 @end
@@ -41,7 +43,7 @@
 }
 -(void)popToPre
 {
-    YXBProdectDetaolViewController *vc=[[YXBProdectDetaolViewController alloc]init];
+    YXBProductTabViewController *vc=[[YXBProductTabViewController alloc]init];
     
     [self.navigationController pushViewController:vc animated:YES];
 

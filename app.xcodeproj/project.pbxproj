@@ -20,6 +20,10 @@
 		694CEE151B95B29100DBF909 /* NYSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE101B95B29100DBF909 /* NYSegment.m */; };
 		694CEE161B95B29100DBF909 /* NYSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE121B95B29100DBF909 /* NYSegmentedControl.m */; };
 		694CEE171B95B29100DBF909 /* NYSegmentIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */; };
+		697475C41BA825D100A5C1E4 /* YXBProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697475C21BA825D100A5C1E4 /* YXBProductTableViewController.m */; };
+		697475C51BA825D100A5C1E4 /* YXBProductTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697475C31BA825D100A5C1E4 /* YXBProductTableViewController.xib */; };
+		697475C91BA8266C00A5C1E4 /* YXBProductTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697475C71BA8266C00A5C1E4 /* YXBProductTabViewController.m */; };
+		697475CA1BA8266C00A5C1E4 /* YXBProductTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697475C81BA8266C00A5C1E4 /* YXBProductTabViewController.xib */; };
 		699006351B9DA40400C439FA /* YXBdiscountCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */; };
 		699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */; };
 		6990063A1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */; };
@@ -297,6 +301,12 @@
 		694CEE121B95B29100DBF909 /* NYSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentedControl.m; sourceTree = "<group>"; };
 		694CEE131B95B29100DBF909 /* NYSegmentIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYSegmentIndicator.h; sourceTree = "<group>"; };
 		694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYSegmentIndicator.m; sourceTree = "<group>"; };
+		697475C11BA825D100A5C1E4 /* YXBProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBProductTableViewController.h; sourceTree = "<group>"; };
+		697475C21BA825D100A5C1E4 /* YXBProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBProductTableViewController.m; sourceTree = "<group>"; };
+		697475C31BA825D100A5C1E4 /* YXBProductTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBProductTableViewController.xib; sourceTree = "<group>"; };
+		697475C61BA8266C00A5C1E4 /* YXBProductTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBProductTabViewController.h; sourceTree = "<group>"; };
+		697475C71BA8266C00A5C1E4 /* YXBProductTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBProductTabViewController.m; sourceTree = "<group>"; };
+		697475C81BA8266C00A5C1E4 /* YXBProductTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBProductTabViewController.xib; sourceTree = "<group>"; };
 		699006321B9DA40400C439FA /* YXBdiscountCouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBdiscountCouponViewController.h; sourceTree = "<group>"; };
 		699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBdiscountCouponViewController.m; sourceTree = "<group>"; };
 		699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBdiscountCouponViewController.xib; sourceTree = "<group>"; };
@@ -886,6 +896,12 @@
 				6995655C1BA800CF000A24BA /* YXBProgectDetailViewController.h */,
 				6995655D1BA800CF000A24BA /* YXBProgectDetailViewController.m */,
 				6995655E1BA800CF000A24BA /* YXBProgectDetailViewController.xib */,
+				697475C61BA8266C00A5C1E4 /* YXBProductTabViewController.h */,
+				697475C71BA8266C00A5C1E4 /* YXBProductTabViewController.m */,
+				697475C81BA8266C00A5C1E4 /* YXBProductTabViewController.xib */,
+				697475C11BA825D100A5C1E4 /* YXBProductTableViewController.h */,
+				697475C21BA825D100A5C1E4 /* YXBProductTableViewController.m */,
+				697475C31BA825D100A5C1E4 /* YXBProductTableViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -2034,6 +2050,7 @@
 				69F67D361BA1259800EF5664 /* welcome-1-4.png in Resources */,
 				699618581B9C3FFC00F30E6D /* YXBTimeViewController.xib in Resources */,
 				B5EC3DA81B6F111500102584 /* YXBContactsViewController.xib in Resources */,
+				697475C51BA825D100A5C1E4 /* YXBProductTableViewController.xib in Resources */,
 				B5EC3DC91B6F321000102584 /* YXBFindViewController.xib in Resources */,
 				69F67D351BA1259800EF5664 /* welcome-1-4-568h.png in Resources */,
 				B5EC3DCE1B6F322000102584 /* YXBMeViewController.xib in Resources */,
@@ -2057,6 +2074,7 @@
 				69F67D321BA1259800EF5664 /* welcome-1-2.png in Resources */,
 				69F67D301BA1259800EF5664 /* welcome-1-1.png in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
+				697475CA1BA8266C00A5C1E4 /* YXBProductTabViewController.xib in Resources */,
 				690A5A001B9E7A7B00A34FAB /* YXBSizeAndlayoutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2082,10 +2100,12 @@
 				B5ACC3351B70F63800383F92 /* UIViewController+ENPopUp.m in Sources */,
 				69E8E3B61B8D5F5C0092713A /* UIImage+Resize.m in Sources */,
 				B588E3DB1B71E9C70069C0AF /* UIView+YXBFrame.m in Sources */,
+				697475C41BA825D100A5C1E4 /* YXBProductTableViewController.m in Sources */,
 				B5ACC3341B70F63800383F92 /* JWBlurView.m in Sources */,
 				69E8E3841B8D5F5C0092713A /* NSData+Encrypt.m in Sources */,
 				B588E4F61B71EDA50069C0AF /* SDWebImageDownloaderOperation.m in Sources */,
 				69E8E3BF1B8D5F5C0092713A /* UIScrollView+Addition.m in Sources */,
+				697475C91BA8266C00A5C1E4 /* YXBProductTabViewController.m in Sources */,
 				69F67E061BA1916000EF5664 /* YXBCustomBarButtonItem.m in Sources */,
 				B588E4F11B71EDA50069C0AF /* NSData+GIF.m in Sources */,
 				69E8E3951B8D5F5C0092713A /* NSSet+Block.m in Sources */,
