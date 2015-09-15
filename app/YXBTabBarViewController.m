@@ -13,6 +13,8 @@
 #import "YXBMoneyViewController.h"
 #import "YXBFindViewController.h"
 #import "Define.h"
+#import "YXBProgectViewController.h"
+#import "YXBProdectDetaolViewController.h"
 @interface YXBTabBarViewController ()
 @property (nonatomic, strong) YXBContactsViewController *contactsVC;
 @property (nonatomic, strong) YXBMoneyViewController *moneyVC;
@@ -51,9 +53,18 @@
     
     
     // 我
-    YXBMeViewController *profile = [[YXBMeViewController alloc] init];
+    YXBProdectDetaolViewController *profile = [[YXBProdectDetaolViewController alloc] init];
     [self setUpOneChildViewController:profile title:@"我" imageName:@"icon_wo" selImageName:@"icon_wo_1"];
-    _meVC = profile;
+    //_meVC = profile;
+    
+    
+    
+    
+    // 项目
+    YXBProgectViewController *progect = [[YXBProgectViewController alloc] init];
+    [self setUpOneChildViewController:progect title:@"我" imageName:@"icon_wo" selImageName:@"icon_wo_1"];
+    //_meVC = profile;
+    
     
 }
 /**

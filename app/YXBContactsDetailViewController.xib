@@ -7,6 +7,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YXBContactsDetailViewController">
             <connections>
+                <outlet property="myBtn" destination="8e1-4v-QIw" id="Glh-ke-mDl"/>
+                <outlet property="myView" destination="SDJ-h0-gbd" id="2SR-88-ZkO"/>
+                <outlet property="myViewH" destination="2sh-Ra-TyW" id="vBU-tH-MGW"/>
+                <outlet property="myViewW" destination="9Ni-U9-iga" id="uMA-zT-CJ2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,9 +18,50 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SDJ-h0-gbd">
+                    <rect key="frame" x="113" y="259" width="150" height="150"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qqstar4" translatesAutoresizingMaskIntoConstraints="NO" id="lgL-8Y-Eua">
+                            <rect key="frame" x="8" y="50" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="6BU-Cn-nk1"/>
+                                <constraint firstAttribute="width" constant="50" id="USN-gL-47X"/>
+                            </constraints>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8e1-4v-QIw">
+                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                            <state key="normal" title="     小儿按摩">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="BcF-Oq-wtk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.80023125289999997" green="0.53174334599999995" blue="0.87277067549999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="2sh-Ra-TyW"/>
+                        <constraint firstAttribute="width" constant="150" id="9Ni-U9-iga"/>
+                        <constraint firstItem="8e1-4v-QIw" firstAttribute="top" secondItem="SDJ-h0-gbd" secondAttribute="top" id="CiR-M4-ID2"/>
+                        <constraint firstAttribute="centerY" secondItem="lgL-8Y-Eua" secondAttribute="centerY" id="HB2-hc-YSf"/>
+                        <constraint firstItem="8e1-4v-QIw" firstAttribute="leading" secondItem="SDJ-h0-gbd" secondAttribute="leading" id="Ojp-m9-kGl"/>
+                        <constraint firstAttribute="trailing" secondItem="8e1-4v-QIw" secondAttribute="trailing" id="Smg-yt-lRO"/>
+                        <constraint firstItem="lgL-8Y-Eua" firstAttribute="leading" secondItem="SDJ-h0-gbd" secondAttribute="leading" constant="8" id="hbI-E4-fbv"/>
+                        <constraint firstAttribute="bottom" secondItem="8e1-4v-QIw" secondAttribute="bottom" id="j6o-A2-ivy"/>
+                    </constraints>
+                </view>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="SDJ-h0-gbd" secondAttribute="centerX" id="oqJ-si-0R4"/>
+                <constraint firstAttribute="centerY" secondItem="SDJ-h0-gbd" secondAttribute="centerY" id="rwk-jL-PNA"/>
+            </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="401" y="352.5"/>
+            <point key="canvasLocation" x="400.5" y="352.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="qqstar4" width="70" height="70"/>
+    </resources>
 </document>

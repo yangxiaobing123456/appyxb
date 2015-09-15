@@ -24,6 +24,12 @@
 		699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */; };
 		6990063A1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */; };
 		6990063B1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699006391B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib */; };
+		699565591BA7E8C8000A24BA /* YXBProgectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699565571BA7E8C8000A24BA /* YXBProgectViewController.m */; };
+		6995655A1BA7E8C8000A24BA /* YXBProgectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699565581BA7E8C8000A24BA /* YXBProgectViewController.xib */; };
+		6995655F1BA800CF000A24BA /* YXBProgectDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6995655D1BA800CF000A24BA /* YXBProgectDetailViewController.m */; };
+		699565601BA800CF000A24BA /* YXBProgectDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6995655E1BA800CF000A24BA /* YXBProgectDetailViewController.xib */; };
+		699565641BA8108F000A24BA /* YXBProdectDetaolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699565621BA8108F000A24BA /* YXBProdectDetaolViewController.m */; };
+		699565651BA8108F000A24BA /* YXBProdectDetaolViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699565631BA8108F000A24BA /* YXBProdectDetaolViewController.xib */; };
 		699618571B9C3FFC00F30E6D /* YXBTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */; };
 		699618581B9C3FFC00F30E6D /* YXBTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */; };
 		6996185C1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6996185A1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.m */; };
@@ -297,6 +303,15 @@
 		699006371B9DA74800C439FA /* YXBdiscountCouponTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBdiscountCouponTableViewCell.h; sourceTree = "<group>"; };
 		699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBdiscountCouponTableViewCell.m; sourceTree = "<group>"; };
 		699006391B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBdiscountCouponTableViewCell.xib; sourceTree = "<group>"; };
+		699565561BA7E8C8000A24BA /* YXBProgectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBProgectViewController.h; sourceTree = "<group>"; };
+		699565571BA7E8C8000A24BA /* YXBProgectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBProgectViewController.m; sourceTree = "<group>"; };
+		699565581BA7E8C8000A24BA /* YXBProgectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBProgectViewController.xib; sourceTree = "<group>"; };
+		6995655C1BA800CF000A24BA /* YXBProgectDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBProgectDetailViewController.h; sourceTree = "<group>"; };
+		6995655D1BA800CF000A24BA /* YXBProgectDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBProgectDetailViewController.m; sourceTree = "<group>"; };
+		6995655E1BA800CF000A24BA /* YXBProgectDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBProgectDetailViewController.xib; sourceTree = "<group>"; };
+		699565611BA8108F000A24BA /* YXBProdectDetaolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBProdectDetaolViewController.h; sourceTree = "<group>"; };
+		699565621BA8108F000A24BA /* YXBProdectDetaolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBProdectDetaolViewController.m; sourceTree = "<group>"; };
+		699565631BA8108F000A24BA /* YXBProdectDetaolViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBProdectDetaolViewController.xib; sourceTree = "<group>"; };
 		699618541B9C3FFC00F30E6D /* YXBTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBTimeViewController.h; sourceTree = "<group>"; };
 		699618551B9C3FFC00F30E6D /* YXBTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBTimeViewController.m; sourceTree = "<group>"; };
 		699618561B9C3FFC00F30E6D /* YXBTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBTimeViewController.xib; sourceTree = "<group>"; };
@@ -849,6 +864,30 @@
 				694CEE141B95B29100DBF909 /* NYSegmentIndicator.m */,
 			);
 			path = NYSegmentedControl;
+			sourceTree = "<group>";
+		};
+		699565551BA7E88E000A24BA /* Progect(项目) */ = {
+			isa = PBXGroup;
+			children = (
+				6995655B1BA800A2000A24BA /* Controller */,
+			);
+			name = "Progect(项目)";
+			sourceTree = "<group>";
+		};
+		6995655B1BA800A2000A24BA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				699565561BA7E8C8000A24BA /* YXBProgectViewController.h */,
+				699565571BA7E8C8000A24BA /* YXBProgectViewController.m */,
+				699565581BA7E8C8000A24BA /* YXBProgectViewController.xib */,
+				699565611BA8108F000A24BA /* YXBProdectDetaolViewController.h */,
+				699565621BA8108F000A24BA /* YXBProdectDetaolViewController.m */,
+				699565631BA8108F000A24BA /* YXBProdectDetaolViewController.xib */,
+				6995655C1BA800CF000A24BA /* YXBProgectDetailViewController.h */,
+				6995655D1BA800CF000A24BA /* YXBProgectDetailViewController.m */,
+				6995655E1BA800CF000A24BA /* YXBProgectDetailViewController.xib */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		69964A601B9D2AC8003265BF /* AM(表的滑动效果) */ = {
@@ -1732,6 +1771,7 @@
 				B5EC3D961B6F0ECF00102584 /* Other(系统的一些类和方法) */,
 				B5EC3D971B6F0F0A00102584 /* Base(基础类) */,
 				B5EC3D9E1B6F106100102584 /* contacts（人脉） */,
+				699565551BA7E88E000A24BA /* Progect(项目) */,
 				B5EC3DBD1B6F315700102584 /* money（技师） */,
 				B5EC3DBE1B6F317500102584 /* Find(订单) */,
 				B5EC3DBF1B6F319400102584 /* me（我） */,
@@ -1987,6 +2027,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				699565601BA800CF000A24BA /* YXBProgectDetailViewController.xib in Resources */,
 				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
 				B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */,
 				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
@@ -1999,6 +2040,7 @@
 				694CEE0C1B95A13C00DBF909 /* YXBfindTableViewCell.xib in Resources */,
 				6990063B1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.xib in Resources */,
 				69F67D331BA1259800EF5664 /* welcome-1-3-568h.png in Resources */,
+				699565651BA8108F000A24BA /* YXBProdectDetaolViewController.xib in Resources */,
 				69F67D3B1BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.xib in Resources */,
 				B588E4591B71EC6A0069C0AF /* MJRefresh.bundle in Resources */,
 				69F67D311BA1259800EF5664 /* welcome-1-2-568h.png in Resources */,
@@ -2007,6 +2049,7 @@
 				699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */,
 				6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */,
 				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
+				6995655A1BA7E8C8000A24BA /* YXBProgectViewController.xib in Resources */,
 				69F67D2F1BA1259800EF5664 /* welcome-1-1-568h.png in Resources */,
 				69F67D341BA1259800EF5664 /* welcome-1-3.png in Resources */,
 				B5EDC66D1B72033000A6A966 /* YXBContactsTableViewCell.xib in Resources */,
@@ -2080,6 +2123,7 @@
 				69F67D3A1BA1267300EF5664 /* YXBNewFeatureCollectionViewCell.m in Sources */,
 				B57B6CF61B731D2C00A2AE2F /* UIButton+YXBbtn.m in Sources */,
 				69E8E3BC1B8D5F5C0092713A /* UINavigationController+KeyboardFix.m in Sources */,
+				6995655F1BA800CF000A24BA /* YXBProgectDetailViewController.m in Sources */,
 				69E8E38A1B8D5F5C0092713A /* NSDictionary+SafeAccess.m in Sources */,
 				69E8E3821B8D5F5C0092713A /* NSBundle+AppIcon.m in Sources */,
 				B5EC3D9A1B6F101700102584 /* YXBBaseNavigationViewController.m in Sources */,
@@ -2171,6 +2215,7 @@
 				B588E4F51B71EDA50069C0AF /* SDWebImageDownloader.m in Sources */,
 				B57B6D451B7322C700A2AE2F /* MWPhotoBrowser.m in Sources */,
 				B56BB3DA1B709407004AEAB8 /* UIImageView+AFNetworking.m in Sources */,
+				699565641BA8108F000A24BA /* YXBProdectDetaolViewController.m in Sources */,
 				69E8E3CB1B8D5F5C0092713A /* UIView+Screenshot.m in Sources */,
 				B5EDC6651B71FE5400A6A966 /* YXBAllModel.m in Sources */,
 				B588E45B1B71EC6A0069C0AF /* MJRefreshConst.m in Sources */,
@@ -2216,6 +2261,7 @@
 				69E8E3A41B8D5F5C0092713A /* UIButton+Block.m in Sources */,
 				B588E4FC1B71EDA50069C0AF /* UIImage+WebP.m in Sources */,
 				69288B671B9FCAB40078FBF6 /* AMWaveViewController.m in Sources */,
+				699565591BA7E8C8000A24BA /* YXBProgectViewController.m in Sources */,
 				B57B6D021B73206C00A2AE2F /* NSDateFormatter+Category.m in Sources */,
 				B56BB3BC1B709401004AEAB8 /* AFHTTPSessionManager.m in Sources */,
 				B588E4801B71ECCD0069C0AF /* MJIvar.m in Sources */,
