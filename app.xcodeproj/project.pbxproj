@@ -24,6 +24,15 @@
 		697475C51BA825D100A5C1E4 /* YXBProductTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697475C31BA825D100A5C1E4 /* YXBProductTableViewController.xib */; };
 		697475C91BA8266C00A5C1E4 /* YXBProductTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 697475C71BA8266C00A5C1E4 /* YXBProductTabViewController.m */; };
 		697475CA1BA8266C00A5C1E4 /* YXBProductTabViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 697475C81BA8266C00A5C1E4 /* YXBProductTabViewController.xib */; };
+		69855A831BA8FB4F0044A50A /* FBShimmeringLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 69855A7E1BA8FB4F0044A50A /* FBShimmeringLayer.m */; };
+		69855A841BA8FB4F0044A50A /* FBShimmeringView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69855A801BA8FB4F0044A50A /* FBShimmeringView.m */; };
+		69855A851BA8FB4F0044A50A /* YXSpritesLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69855A821BA8FB4F0044A50A /* YXSpritesLoadingView.m */; };
+		69855A8B1BA8FBC50044A50A /* slice1_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 69855A871BA8FBC50044A50A /* slice1_0.png */; };
+		69855A8C1BA8FBC50044A50A /* slice1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69855A881BA8FBC50044A50A /* slice1_1.png */; };
+		69855A8D1BA8FBC50044A50A /* slice1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 69855A891BA8FBC50044A50A /* slice1_2.png */; };
+		69855A8E1BA8FBC50044A50A /* slice1_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 69855A8A1BA8FBC50044A50A /* slice1_3.png */; };
+		69855A911BA9292C0044A50A /* server_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69855A8F1BA9292C0044A50A /* server_banner.jpg */; };
+		69855A921BA9292C0044A50A /* server_clock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 69855A901BA9292C0044A50A /* server_clock.jpg */; };
 		699006351B9DA40400C439FA /* YXBdiscountCouponViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */; };
 		699006361B9DA40400C439FA /* YXBdiscountCouponViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */; };
 		6990063A1B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 699006381B9DA74800C439FA /* YXBdiscountCouponTableViewCell.m */; };
@@ -307,6 +316,20 @@
 		697475C61BA8266C00A5C1E4 /* YXBProductTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBProductTabViewController.h; sourceTree = "<group>"; };
 		697475C71BA8266C00A5C1E4 /* YXBProductTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBProductTabViewController.m; sourceTree = "<group>"; };
 		697475C81BA8266C00A5C1E4 /* YXBProductTabViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBProductTabViewController.xib; sourceTree = "<group>"; };
+		69855A7B1BA8FB4F0044A50A /* FBShimmering-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FBShimmering-Prefix.pch"; sourceTree = "<group>"; };
+		69855A7C1BA8FB4F0044A50A /* FBShimmering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmering.h; sourceTree = "<group>"; };
+		69855A7D1BA8FB4F0044A50A /* FBShimmeringLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringLayer.h; sourceTree = "<group>"; };
+		69855A7E1BA8FB4F0044A50A /* FBShimmeringLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringLayer.m; sourceTree = "<group>"; };
+		69855A7F1BA8FB4F0044A50A /* FBShimmeringView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBShimmeringView.h; sourceTree = "<group>"; };
+		69855A801BA8FB4F0044A50A /* FBShimmeringView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBShimmeringView.m; sourceTree = "<group>"; };
+		69855A811BA8FB4F0044A50A /* YXSpritesLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSpritesLoadingView.h; sourceTree = "<group>"; };
+		69855A821BA8FB4F0044A50A /* YXSpritesLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSpritesLoadingView.m; sourceTree = "<group>"; };
+		69855A871BA8FBC50044A50A /* slice1_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slice1_0.png; sourceTree = "<group>"; };
+		69855A881BA8FBC50044A50A /* slice1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slice1_1.png; sourceTree = "<group>"; };
+		69855A891BA8FBC50044A50A /* slice1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slice1_2.png; sourceTree = "<group>"; };
+		69855A8A1BA8FBC50044A50A /* slice1_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = slice1_3.png; sourceTree = "<group>"; };
+		69855A8F1BA9292C0044A50A /* server_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = server_banner.jpg; sourceTree = "<group>"; };
+		69855A901BA9292C0044A50A /* server_clock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = server_clock.jpg; sourceTree = "<group>"; };
 		699006321B9DA40400C439FA /* YXBdiscountCouponViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXBdiscountCouponViewController.h; sourceTree = "<group>"; };
 		699006331B9DA40400C439FA /* YXBdiscountCouponViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXBdiscountCouponViewController.m; sourceTree = "<group>"; };
 		699006341B9DA40400C439FA /* YXBdiscountCouponViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YXBdiscountCouponViewController.xib; sourceTree = "<group>"; };
@@ -876,6 +899,49 @@
 			path = NYSegmentedControl;
 			sourceTree = "<group>";
 		};
+		69855A781BA8FB350044A50A /* HUD（动画方式加载HUD） */ = {
+			isa = PBXGroup;
+			children = (
+				69855A791BA8FB4F0044A50A /* YXSpritesLoadingView */,
+			);
+			name = "HUD（动画方式加载HUD）";
+			sourceTree = "<group>";
+		};
+		69855A791BA8FB4F0044A50A /* YXSpritesLoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				69855A7A1BA8FB4F0044A50A /* FBShimmering */,
+				69855A811BA8FB4F0044A50A /* YXSpritesLoadingView.h */,
+				69855A821BA8FB4F0044A50A /* YXSpritesLoadingView.m */,
+			);
+			path = YXSpritesLoadingView;
+			sourceTree = "<group>";
+		};
+		69855A7A1BA8FB4F0044A50A /* FBShimmering */ = {
+			isa = PBXGroup;
+			children = (
+				69855A861BA8FBC50044A50A /* Sprite_1 */,
+				69855A7B1BA8FB4F0044A50A /* FBShimmering-Prefix.pch */,
+				69855A7C1BA8FB4F0044A50A /* FBShimmering.h */,
+				69855A7D1BA8FB4F0044A50A /* FBShimmeringLayer.h */,
+				69855A7E1BA8FB4F0044A50A /* FBShimmeringLayer.m */,
+				69855A7F1BA8FB4F0044A50A /* FBShimmeringView.h */,
+				69855A801BA8FB4F0044A50A /* FBShimmeringView.m */,
+			);
+			path = FBShimmering;
+			sourceTree = "<group>";
+		};
+		69855A861BA8FBC50044A50A /* Sprite_1 */ = {
+			isa = PBXGroup;
+			children = (
+				69855A871BA8FBC50044A50A /* slice1_0.png */,
+				69855A881BA8FBC50044A50A /* slice1_1.png */,
+				69855A891BA8FBC50044A50A /* slice1_2.png */,
+				69855A8A1BA8FBC50044A50A /* slice1_3.png */,
+			);
+			path = Sprite_1;
+			sourceTree = "<group>";
+		};
 		699565551BA7E88E000A24BA /* Progect(项目) */ = {
 			isa = PBXGroup;
 			children = (
@@ -1426,6 +1492,7 @@
 		B56BB3A51B7093C7004AEAB8 /* Lib（第三方库） */ = {
 			isa = PBXGroup;
 			children = (
+				69855A781BA8FB350044A50A /* HUD（动画方式加载HUD） */,
 				69964A601B9D2AC8003265BF /* AM(表的滑动效果) */,
 				694CEE0D1B95B26900DBF909 /* UISegmentC(seg) */,
 				6925FF111B94172B00E781E0 /* SMSButton（验证码） */,
@@ -1793,6 +1860,8 @@
 				B5EC3DBF1B6F319400102584 /* me（我） */,
 				B56BB3A51B7093C7004AEAB8 /* Lib（第三方库） */,
 				B5EC3D7D1B6F0E1100102584 /* Images.xcassets */,
+				69855A8F1BA9292C0044A50A /* server_banner.jpg */,
+				69855A901BA9292C0044A50A /* server_clock.jpg */,
 				B5EC3D701B6F0E1100102584 /* Supporting Files */,
 			);
 			path = app;
@@ -2043,8 +2112,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69855A921BA9292C0044A50A /* server_clock.jpg in Resources */,
+				69855A8C1BA8FBC50044A50A /* slice1_1.png in Resources */,
 				699565601BA800CF000A24BA /* YXBProgectDetailViewController.xib in Resources */,
+				69855A8E1BA8FBC50044A50A /* slice1_3.png in Resources */,
 				B5EC3DD31B6F38B100102584 /* YXBMessageViewController.xib in Resources */,
+				69855A911BA9292C0044A50A /* server_banner.jpg in Resources */,
 				B56BB39E1B707262004AEAB8 /* YXBPersonDetailViewController.xib in Resources */,
 				B5EC3DC41B6F31FD00102584 /* YXBMoneyViewController.xib in Resources */,
 				69F67D361BA1259800EF5664 /* welcome-1-4.png in Resources */,
@@ -2067,11 +2140,13 @@
 				6996185D1B9C4AF500F30E6D /* YXBbTNCollectionViewCell.xib in Resources */,
 				B5ACC33A1B70F6AF00383F92 /* YXBMoneyDetailViewController.xib in Resources */,
 				6995655A1BA7E8C8000A24BA /* YXBProgectViewController.xib in Resources */,
+				69855A8D1BA8FBC50044A50A /* slice1_2.png in Resources */,
 				69F67D2F1BA1259800EF5664 /* welcome-1-1-568h.png in Resources */,
 				69F67D341BA1259800EF5664 /* welcome-1-3.png in Resources */,
 				B5EDC66D1B72033000A6A966 /* YXBContactsTableViewCell.xib in Resources */,
 				69288B6C1B9FCB8F0078FBF6 /* YXBContactsDetailViewController.xib in Resources */,
 				69F67D321BA1259800EF5664 /* welcome-1-2.png in Resources */,
+				69855A8B1BA8FBC50044A50A /* slice1_0.png in Resources */,
 				69F67D301BA1259800EF5664 /* welcome-1-1.png in Resources */,
 				B5EC3D7E1B6F0E1100102584 /* Images.xcassets in Resources */,
 				697475CA1BA8266C00A5C1E4 /* YXBProductTabViewController.xib in Resources */,
@@ -2114,6 +2189,7 @@
 				69E8E3D11B8D5F5C0092713A /* UIWebView+Blocks.m in Sources */,
 				B57B6CFD1B73205E00A2AE2F /* NSDate+Category.m in Sources */,
 				69E8E3B31B8D5F5C0092713A /* UIImage+Merge.m in Sources */,
+				69855A851BA8FB4F0044A50A /* YXSpritesLoadingView.m in Sources */,
 				69E8E3991B8D5F5C0092713A /* NSString+Encrypt.m in Sources */,
 				694CEE161B95B29100DBF909 /* NYSegmentedControl.m in Sources */,
 				694CEE171B95B29100DBF909 /* NYSegmentIndicator.m in Sources */,
@@ -2215,6 +2291,7 @@
 				B57B6D4D1B7322C700A2AE2F /* PSTCollectionViewController.m in Sources */,
 				B56BB3C01B709401004AEAB8 /* AFURLRequestSerialization.m in Sources */,
 				B588E4F81B71EDA50069C0AF /* SDWebImagePrefetcher.m in Sources */,
+				69855A831BA8FB4F0044A50A /* FBShimmeringLayer.m in Sources */,
 				B588E4641B71EC8D0069C0AF /* FDAlertView.m in Sources */,
 				B588E4F71B71EDA50069C0AF /* SDWebImageManager.m in Sources */,
 				B57B6D531B7322C700A2AE2F /* PSTGridLayoutInfo.m in Sources */,
@@ -2307,6 +2384,7 @@
 				B57B6D501B7322C700A2AE2F /* PSTCollectionViewItemKey.m in Sources */,
 				699618571B9C3FFC00F30E6D /* YXBTimeViewController.m in Sources */,
 				69E8E3971B8D5F5C0092713A /* NSString+DictionaryValue.m in Sources */,
+				69855A841BA8FB4F0044A50A /* FBShimmeringView.m in Sources */,
 				B588E47E1B71ECCD0069C0AF /* MJConst.m in Sources */,
 				B57B6D471B7322C700A2AE2F /* MWTapDetectingView.m in Sources */,
 				69E8E3C61B8D5F5C0092713A /* UIView+BlockGesture.m in Sources */,

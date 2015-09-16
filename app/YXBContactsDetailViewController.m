@@ -10,7 +10,7 @@
 #import "Define.h"
 #import "YXBTimeViewController.h"
 #import "YXBdiscountCouponViewController.h"
-
+#import "YXSpritesLoadingView.h"
 @interface YXBContactsDetailViewController ()
 
 @end
@@ -22,6 +22,11 @@
 //    YXBTimeViewController *yxbtimeVC=[[YXBTimeViewController alloc]init];
 //    YXBdiscountCouponViewController *yxbdisVC=[[YXBdiscountCouponViewController alloc]init];
     
+    [YXSpritesLoadingView showWithText:@"正在加载..." andShimmering:YES andBlurEffect:YES andVC:self];
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(15 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [YXSpritesLoadingView dismiss];
+        
+    });
     YXBCustomBtn *btn=[[YXBCustomBtn alloc]init];
     btn.frame=CGRectMake(150, 200, 40, 30);
     btn.contentText=@"南京";

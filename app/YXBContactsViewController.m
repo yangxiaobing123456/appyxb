@@ -15,6 +15,7 @@
 #import "AMWaveTransition.h"
 #import "YXBContactsDetailViewController.h"
 #import "IWNewFeatureController.h"
+#import "YXSpritesLoadingView.h"
 typedef NS_ENUM(NSInteger, Test1) {
     
     //以下是枚举成员
@@ -50,6 +51,16 @@ typedef NS_ENUM(NSInteger, Test1) {
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+    self.methodLb.text=@"sdfsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdsfdgdsgdsgdsgsdgdsg";
+    [self.myView layoutIfNeeded];
+    [YXSpritesLoadingView showWithText:@"正在加载..." andShimmering:YES andBlurEffect:YES andVC:self];
+     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+         [YXSpritesLoadingView dismiss];
+         //[self.myTable reloadData];
+         
+    });
+    
     self.title=@"服务项目";
     text=Test1A;
     NSLog(@"%@",[NSDate getCalendar]);
@@ -81,6 +92,12 @@ typedef NS_ENUM(NSInteger, Test1) {
 //    [upBtn addTarget:self action:@selector(btnUp) forControlEvents:UIControlEventTouchUpInside];
 //    [self.view addSubview:upBtn];
     // Do any additional setup after loading the view from its nib.
+    CGFloat H=CGRectGetMaxY(self.didBtn.frame);
+    YXBLog(@"%f",H);
+    self.myView.height=H;
+    YXBLog(@"%f",self.myView.height);
+    //[self.myView layoutIfNeeded];
+    
 }
 //-(void)btnUp
 //{
